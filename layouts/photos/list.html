@@ -1,0 +1,82 @@
+{{ define "main" }}
+
+<div class="hero" style="height:40vh;min-height:300px;">
+  <div class="hero__bg" style="background:#1a1a18;">
+    <img src="{{ .Site.Params.cloudinary_base }}/w_1400,q_auto,f_auto/photos-hero.jpg"
+         alt="Photos" loading="eager" style="opacity:0.45;" />
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow">Through the lens</p>
+    <h1 class="hero__title">Photos</h1>
+    <p class="hero__sub">A visual record of every place the trail has led.</p>
+  </div>
+</div>
+
+<div class="container" style="padding-top:3rem;padding-bottom:5rem;">
+
+  <!-- Filter by location -->
+  <div class="filter-bar" style="margin-bottom:2rem;">
+    <span class="filter-label">Location:</span>
+    <button class="filter-btn active" data-filter="all">All</button>
+    {{ range .Site.Data.locations.locations }}
+    <button class="filter-btn" data-filter="{{ .id }}">{{ .name }}</button>
+    {{ end }}
+  </div>
+
+  <!-- Photo galleries by location -->
+  {{ range .Site.Data.locations.locations }}
+  {{ $locSlug := .slug }}
+  {{ $photoPages := where $.Site.RegularPages "Section" "photos" }}
+  {{ $locPhotos  := where $photoPages ".Params.location" $locSlug }}
+  {{ if $locPhotos }}
+  <div class="photo-location-group" data-loc="{{ $locSlug }}"
+       style="margin-bottom:4rem;">
+    <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1rem;
+                padding-bottom:0.75rem;border-bottom:1px solid var(--border);">
+      <div>
+        <span style="font-size:0.68rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--forest);">
+          {{ $locSlug | title }}
+        </span>
+        <h2 style="font-size:1.5rem;font-family:var(--font-display);font-weight:400;">
+          {{ .name }}
+        </h2>
+      </div>
+      <a href="/locations/{{ $locSlug }}/" class="btn btn--outline"
+         style="font-size:0.72rem;">View location →</a>
+    </div>
+    <div class="gallery-grid">
+      {{ range $locPhotos }}
+        {{ range .Params.photos }}
+        <div class="gallery-item">
+          <img src="{{ $.Site.Params.cloudinary_base }}/w_800,q_auto,f_auto/{{ .src }}"
+               data-full="{{ $.Site.Params.cloudinary_base }}/w_1800,q_auto,f_auto/{{ .src }}"
+               alt="{{ .caption }}" loading="lazy" />
+          <div class="gallery-caption">{{ .caption }}</div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+</div>
+
+{{ partial "lightbox.html" . }}
+
+<script>
+// Photo location filter
+document.querySelectorAll('.filter-btn[data-filter]').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    const f = this.dataset.filter;
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');
+    document.querySelectorAll('.photo-location-group').forEach(function(g){
+      g.style.display = (f==='all'||g.dataset.loc===f)?'':'none';
+    });
+  });
+});
+</script>
+
+{{ end }}

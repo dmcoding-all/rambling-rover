@@ -1,0 +1,121 @@
+{{ define "main" }}
+
+<!-- Post hero image -->
+{{ with .Params.cover }}
+<div class="post-hero">
+  <img src="{{ . | replaceRE `(/upload/)` `$1w_1400,q_auto,f_auto/` }}"
+       alt="{{ $.Title }}" loading="eager" fetchpriority="high" />
+  <div class="post-hero__overlay"></div>
+</div>
+{{ end }}
+
+<!-- Post header -->
+<header class="post-meta-bar">
+  {{ with .Params.locations }}
+  <div class="post-meta-item post-cats">
+    {{ range . }}
+    <a href="/locations/{{ . | urlize }}/">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="post-meta-item">
+    <span class="dot"></span>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+  </div>
+
+  <div class="post-meta-item">
+    <span class="dot"></span>
+    {{ .ReadingTime }} min read
+  </div>
+
+  {{ with .Params.categories }}
+  <div class="post-meta-item">
+    <span class="dot"></span>
+    {{ delimit . " · " }}
+  </div>
+  {{ end }}
+</header>
+
+<!-- Post title (if no hero image) -->
+{{ if not .Params.cover }}
+<div class="container--prose" style="padding-top:3rem;padding-bottom:1rem;">
+  <h1 style="font-family:var(--font-display);font-size:clamp(2rem,5vw,3.2rem);font-weight:300;line-height:1.1;">
+    {{ .Title }}
+  </h1>
+</div>
+{{ else }}
+<div class="container--prose" style="padding-bottom:1rem;">
+  <h1 style="font-family:var(--font-display);font-size:clamp(2rem,5vw,3.2rem);font-weight:300;line-height:1.1;">
+    {{ .Title }}
+  </h1>
+</div>
+{{ end }}
+
+<!-- Affiliate notice -->
+{{ if .Params.has_affiliate_links }}
+<div class="container--prose">
+  <div class="affiliate-note">
+    {{ $.Site.Params.affiliate_disclaimer }}
+  </div>
+</div>
+{{ end }}
+
+<!-- Post content -->
+<article class="container--prose">
+  <div class="prose">
+    {{ .Content }}
+  </div>
+</article>
+
+<!-- Tags / locations -->
+<div class="container--prose" style="padding:2rem 2rem 0;">
+  <div style="display:flex;flex-wrap:wrap;gap:0.5rem;border-top:1px solid var(--border);padding-top:1.5rem;">
+    {{ with .Params.locations }}
+    {{ range . }}
+    <a href="/locations/{{ . | urlize }}/"
+       style="font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;
+              background:var(--forest-light);color:var(--forest);
+              padding:0.25rem 0.75rem;border-radius:100px;transition:all 0.2s;">
+      {{ . }}
+    </a>
+    {{ end }}
+    {{ end }}
+    {{ with .Params.categories }}
+    {{ range . }}
+    <a href="/categories/{{ . | urlize }}/"
+       style="font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;
+              background:var(--cream-dark);color:var(--ink-mid);
+              padding:0.25rem 0.75rem;border-radius:100px;border:1px solid var(--border);transition:all 0.2s;">
+      {{ . }}
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+<!-- Prev / Next navigation -->
+<div class="post-nav">
+  {{ with .PrevInSection }}
+  <a href="{{ .Permalink }}" class="post-nav-item post-nav-item--prev">
+    <div class="post-nav__label">← Previous</div>
+    <div class="post-nav__title">{{ .Title }}</div>
+  </a>
+  {{ else }}
+  <div class="post-nav-item"></div>
+  {{ end }}
+
+  {{ with .NextInSection }}
+  <a href="{{ .Permalink }}" class="post-nav-item post-nav-item--next">
+    <div class="post-nav__label">Next →</div>
+    <div class="post-nav__title">{{ .Title }}</div>
+  </a>
+  {{ else }}
+  <div class="post-nav-item"></div>
+  {{ end }}
+</div>
+
+<!-- Lightbox -->
+{{ partial "lightbox.html" . }}
+
+{{ end }}

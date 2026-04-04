@@ -1,0 +1,118 @@
+{{ define "main" }}
+{{- $slug := .File.TranslationBaseName -}}
+{{- $locData := dict -}}
+{{- range .Site.Data.locations.locations -}}
+  {{- if eq .slug $slug -}}{{- $locData = . -}}{{- end -}}
+{{- end -}}
+
+<!-- Location hero -->
+<div class="hero" style="height:55vh;min-height:420px;">
+  <div class="hero__bg">
+    <img src="{{ .Site.Params.cloudinary_base }}/w_1600,q_auto,f_auto/locations/{{ $slug }}-hero.jpg"
+         alt="{{ .Title }}" loading="eager" fetchpriority="high" style="opacity:0.75;" />
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow">{{ $locData.continent }} · {{ $locData.country }}</p>
+    <h1 class="hero__title" style="color:#fff;">{{ .Title }}</h1>
+    <p class="hero__sub">{{ $locData.dates }}</p>
+  </div>
+</div>
+
+<div class="container" style="padding-top:3rem;">
+
+  <!-- Location intro -->
+  {{ with .Content }}
+  <div class="prose" style="max-width:680px;margin-bottom:3rem;">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  <!-- Tab navigation -->
+  <div class="location-tabs">
+    <button class="location-tab active" data-tab="recommendations">Recommendations</button>
+    <button class="location-tab" data-tab="posts">Posts</button>
+    <button class="location-tab" data-tab="photos">Photos</button>
+  </div>
+
+  <!-- TAB: Recommendations -->
+  <div class="tab-panel active" id="tab-recommendations">
+    {{ with .Params.recommendations }}
+    <div class="rec-grid">
+      {{ range . }}
+      <div class="rec-card">
+        <div class="rec-card__type">{{ .type }}</div>
+        <div class="rec-card__name">{{ .name }}</div>
+        <div class="rec-card__note">{{ .note }}</div>
+        {{ with .url }}
+        <a href="{{ . }}" target="_blank" rel="noopener"
+           style="display:inline-block;margin-top:0.75rem;font-size:0.75rem;
+                  letter-spacing:0.1em;text-transform:uppercase;color:var(--forest);">
+          Learn more →
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p style="color:var(--ink-mid);">Recommendations coming soon — check back after the next visit!</p>
+    {{ end }}
+  </div>
+
+  <!-- TAB: Posts -->
+  <div class="tab-panel" id="tab-posts">
+    {{- $locPosts := where .Site.RegularPages ".Params.locations" "intersect" (slice $slug) -}}
+    {{ if $locPosts }}
+    <div class="post-list" style="padding-top:1rem;">
+      {{ range $locPosts }}
+      <a href="{{ .Permalink }}" style="display:block;color:inherit;">
+        <article class="post-row">
+          <div class="post-row__meta">
+            <div class="post-row__date">{{ .Date.Format "Jan 2, 2006" }}</div>
+          </div>
+          <div>
+            <h3 class="post-row__title">{{ .Title }}</h3>
+            <p class="post-row__excerpt">{{ .Summary | truncate 140 "…" }}</p>
+          </div>
+          {{ with .Params.cover }}
+          <div class="post-row__thumb">
+            <img src="{{ . | replaceRE `(/upload/)` `$1w_300,q_auto,f_auto/` }}"
+                 alt="{{ $.Title }}" loading="lazy" />
+          </div>
+          {{ end }}
+        </article>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p style="color:var(--ink-mid);padding:2rem 0;">No posts yet for this location.</p>
+    {{ end }}
+  </div>
+
+  <!-- TAB: Photos -->
+  <div class="tab-panel" id="tab-photos">
+    {{ $photoPages := where .Site.RegularPages "Section" "photos" }}
+    {{ $locPhotos  := where $photoPages ".Params.location" $slug }}
+    {{ if $locPhotos }}
+    <div class="gallery-grid" style="margin-top:1rem;">
+      {{ range $locPhotos }}
+        {{ range .Params.photos }}
+        <div class="gallery-item">
+          <img src="{{ $.Site.Params.cloudinary_base }}/w_800,q_auto,f_auto/{{ .src }}"
+               data-full="{{ $.Site.Params.cloudinary_base }}/w_1800,q_auto,f_auto/{{ .src }}"
+               alt="{{ .caption }}" loading="lazy" />
+          <div class="gallery-caption">{{ .caption }}</div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ else }}
+    <p style="color:var(--ink-mid);padding:2rem 0;">No photos yet for this location.</p>
+    {{ end }}
+  </div>
+
+</div>
+
+{{ partial "lightbox.html" . }}
+
+{{ end }}

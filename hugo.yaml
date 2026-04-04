@@ -1,0 +1,56 @@
+baseURL: "https://dmcoding-all.github.io/rambling-rover/"
+languageCode: "en-us"
+title: "Rambling Rover"
+theme: ""
+
+# Pagination
+paginate: 12
+paginatePath: "page"
+
+# Taxonomies
+taxonomies:
+  location: locations
+  category: categories
+  tag: tags
+
+# Permalinks
+permalinks:
+  posts: "/posts/:year/:month/:slug/"
+  locations: "/locations/:slug/"
+  photos: "/photos/:slug/"
+
+# Markup
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # Allows HTML in markdown (for affiliate links, embeds)
+  highlight:
+    style: friendly
+
+# Params
+params:
+  author: "Rambling Rover"
+  description: "A travel journal"
+  cloudinary_cloud: "drcnvlbgx" 
+  cloudinary_base: "https://res.cloudinary.com/drcnvlbgx/image/upload"
+  map_default_lat: 30
+  map_default_lng: 10
+  map_default_zoom: 2
+  social:
+    instagram: ""
+    twitter: ""
+  affiliate_disclaimer: "Some links on this page are affiliate links. I earn a small commission if you purchase through them, at no extra cost to you."
+
+# Build
+build:
+  writeStats: true
+
+# Outputs
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS

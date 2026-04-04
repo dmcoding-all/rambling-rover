@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "nav.html" . }}
+  <main class="page-body">
+    {{- block "main" . }}{{- end }}
+  </main>
+  {{ partial "footer.html" . }}
+
+  <!-- Leaflet (loaded on all pages; map.js checks if #leaflet-map exists) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Map data (injected globally; safe if mapLocations unused) -->
+  <script>
+    const mapCenter = {
+      lat: {{ .Site.Params.map_default_lat | default 30 }},
+      lng: {{ .Site.Params.map_default_lng | default 10 }},
+      zoom: {{ .Site.Params.map_default_zoom | default 2 }}
+    };
+    const mapLocations = [
+      {{ range .Site.Data.locations.locations -}}
+      {
+        id:        "{{ .id }}",
+        name:      {{ .name | jsonify }},
+        lat:       {{ .lat }},
+        lng:       {{ .lng }},
+        dates:     {{ .dates | jsonify }},
+        slug:      "{{ .slug }}",
+        continent: "{{ .continent }}"
+      },
+      {{ end -}}
+    ];
+  </script>
+
+  <script src="/js/map.js"></script>
+  <script src="/js/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">Rambling Rover</div>
+      <p class="footer-desc">{{ .Site.Params.description }}</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Explore</div>
+      <nav class="footer-links">
+        <a href="/posts/">All Posts</a>
+        <a href="/locations/">Locations</a>
+        <a href="/photos/">Photo Galleries</a>
+        <a href="/#world-map">World Map</a>
+        <a href="/categories/">Categories</a>
+      </nav>
+    </div>
+    <div>
+      <div class="footer-col-title">Regions</div>
+      <nav class="footer-links">
+        {{ range first 6 .Site.Data.locations.locations }}
+        <a href="/locations/{{ .slug }}/">{{ .name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© {{ now.Year }} Rambling Rover. All rights reserved.</span>
+    <span>Built with Hugo · Hosted on GitHub Pages</span>
+  </div>
+</footer>

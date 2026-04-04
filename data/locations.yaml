@@ -1,0 +1,255 @@
+# ============================================================
+# data/locations.yaml
+# CENTRAL SOURCE OF TRUTH for the world map and location pages.
+# Every field here drives the map markers, location cards, and
+# footer links. Add a new entry whenever you visit a new place.
+# ============================================================
+
+locations:
+
+  # ---- SCOTLAND / EUROPE (Study Abroad 2018) ---------------
+  - id: edinburgh
+    slug: edinburgh
+    name: Edinburgh, Scotland
+    country: Scotland
+    continent: Europe
+    lat: 55.9533
+    lng: -3.1883
+    dates: "Sep 2018 – Dec 2018"
+    description: "Three months studying abroad at the University of Edinburgh — ceilidhs, Highlands day trips, and climbing Arthur's Seat."
+
+  - id: isle-of-skye
+    slug: isle-of-skye
+    name: Isle of Skye, Scotland
+    country: Scotland
+    continent: Europe
+    lat: 57.2736
+    lng: -6.2149
+    dates: "Oct 2018"
+    description: "A weekend escape to the Fairy Pools, Old Man of Storr, and the most dramatic coastline I've ever seen."
+
+  - id: germany
+    slug: germany
+    name: Bavaria, Germany
+    country: Germany
+    continent: Europe
+    lat: 48.1351
+    lng: 11.5820
+    dates: "Sep – Oct 2018"
+    description: "Munich, Neuschwanstein Castle, and Bavarian food done properly."
+
+  - id: czech-republic
+    slug: czech-republic
+    name: Prague, Czech Republic
+    country: Czech Republic
+    continent: Europe
+    lat: 50.0755
+    lng: 14.4378
+    dates: "Nov 2018"
+    description: "A weekend in Prague — cobblestones, castle views, and getting thoroughly lost."
+
+  - id: milan
+    slug: milan
+    name: Milan, Italy
+    country: Italy
+    continent: Europe
+    lat: 45.4642
+    lng: 9.1900
+    dates: "Dec 2018"
+    description: "A long weekend in Milan before flying home for the holidays."
+
+  - id: dublin
+    slug: dublin
+    name: Dublin, Ireland
+    country: Ireland
+    continent: Europe
+    lat: 53.3498
+    lng: -6.2603
+    dates: "Dec 2018"
+    description: "Quick stop in Dublin on the way back to the States."
+
+  - id: glasgow
+    slug: glasgow
+    name: Glasgow, Scotland
+    country: Scotland
+    continent: Europe
+    lat: 55.8642
+    lng: -4.2518
+    dates: "Dec 2018"
+    description: "A Hozier concert and football match in Scotland's biggest city."
+
+  # ---- GAP YEAR 2019 ---------------------------------------
+  - id: new-york
+    slug: new-york
+    name: New York City, USA
+    country: USA
+    continent: North America
+    lat: 40.7128
+    lng: -74.0060
+    dates: "Jun 2019"
+    description: "Time in the city before heading to Southeast Asia."
+
+  - id: bangkok
+    slug: bangkok
+    name: Bangkok, Thailand
+    country: Thailand
+    continent: Asia
+    lat: 13.7563
+    lng: 100.5018
+    dates: "Jun – Jul 2019"
+    description: "The start of a Thai adventure — temples, markets, and the chaos of Bangkok."
+
+  - id: pai
+    slug: pai
+    name: Pai, Thailand
+    country: Thailand
+    continent: Asia
+    lat: 19.3586
+    lng: 98.4420
+    dates: "Jul 2019"
+    description: "A small mountain town in northern Thailand — waterfalls, hot springs, and slowing way down."
+
+  - id: krabi
+    slug: krabi
+    name: Krabi, Thailand
+    country: Thailand
+    continent: Asia
+    lat: 8.0863
+    lng: 98.9063
+    dates: "Jul 2019"
+    description: "Climbing Tiger Cave Temple and kayaking through limestone caves."
+
+  - id: montreal
+    slug: montreal
+    name: Montreal, Canada
+    country: Canada
+    continent: North America
+    lat: 45.5017
+    lng: -73.5673
+    dates: "Mar 2019"
+    description: "A weekend in Quebec — poutine, French, and beautiful winter architecture."
+
+  # ---- SOUTH AMERICA 2023 ----------------------------------
+  - id: buenos-aires
+    slug: buenos-aires
+    name: Buenos Aires, Argentina
+    country: Argentina
+    continent: South America
+    lat: -34.6037
+    lng: -58.3816
+    dates: "Mar – Apr 2023"
+    description: "Six weeks living in BA — tango, steak, and navigating a new city as a temporary local."
+
+  - id: patagonia
+    slug: patagonia
+    name: Patagonia (Torres del Paine)
+    country: Chile
+    continent: South America
+    lat: -50.9423
+    lng: -73.4068
+    dates: "Apr 2023"
+    description: "The W Trek through Torres del Paine — one of the most dramatic landscapes on earth."
+
+  - id: iguazu
+    slug: iguazu
+    name: Iguazú Falls, Argentina
+    country: Argentina
+    continent: South America
+    lat: -25.6953
+    lng: -54.4367
+    dates: "Apr 2023"
+    description: "Standing in the mist of the world's largest waterfall system."
+
+  # ---- APPALACHIAN TRAIL 2023 ------------------------------
+  - id: appalachian-trail-georgia
+    slug: appalachian-trail-georgia
+    name: AT — Georgia (Springer Mtn)
+    country: USA
+    continent: North America
+    lat: 34.6278
+    lng: -84.1938
+    dates: "Jun 2023"
+    description: "Mile 0. The southern terminus at Springer Mountain, Georgia."
+
+  - id: appalachian-trail-pennsylvania
+    slug: appalachian-trail-pennsylvania
+    name: AT — Pennsylvania (Rocksylvania)
+    country: USA
+    continent: North America
+    lat: 40.8509
+    lng: -75.5488
+    dates: "Jun 2023"
+    description: "The infamous rocky miles through Pennsylvania — character-building."
+
+  - id: appalachian-trail-new-jersey
+    slug: appalachian-trail-new-jersey
+    name: AT — New Jersey
+    country: USA
+    continent: North America
+    lat: 41.1320
+    lng: -74.5654
+    dates: "Jul 2023"
+    description: "Boardwalks, lakes, and a surprisingly beautiful stretch of trail."
+
+  - id: appalachian-trail-new-york
+    slug: appalachian-trail-new-york
+    name: AT — New York
+    country: USA
+    continent: North America
+    lat: 41.2565
+    lng: -74.0060
+    dates: "Jul 2023"
+    description: "Days 28–34 through New York state."
+
+  - id: appalachian-trail-vermont
+    slug: appalachian-trail-vermont
+    name: AT — Vermont
+    country: USA
+    continent: North America
+    lat: 43.6745
+    lng: -72.9464
+    dates: "Aug 2023"
+    description: "Welcome to Vermud — mud, moose, and some of the best trail magic of the trip."
+
+  - id: appalachian-trail-new-hampshire
+    slug: appalachian-trail-new-hampshire
+    name: AT — New Hampshire (White Mountains)
+    country: USA
+    continent: North America
+    lat: 44.2706
+    lng: -71.3033
+    dates: "Aug 2023"
+    description: "The Presidential Range and Mt. Washington — where the going got really tough."
+
+  - id: appalachian-trail-maine
+    slug: appalachian-trail-maine
+    name: AT — Maine (100-Mile Wilderness)
+    country: USA
+    continent: North America
+    lat: 45.9028
+    lng: -69.2547
+    dates: "Sep 2023"
+    description: "The 100-Mile Wilderness and Katahdin — the final stretch of a thru-hike."
+
+  - id: damascus
+    slug: damascus
+    name: Damascus, Virginia
+    country: USA
+    continent: North America
+    lat: 36.6318
+    lng: -81.7760
+    dates: "Oct 2023"
+    description: "The trail town of Damascus and biking the Virginia Creeper Trail."
+
+  # ---- ADD NEW LOCATIONS BELOW THIS LINE -------------------
+  # Copy this template for each new destination:
+  #
+  # - id: city-name                    # lowercase, hyphens
+  #   slug: city-name                  # same as id
+  #   name: City Name, Country         # display name
+  #   country: Country
+  #   continent: Europe                # Europe / Asia / Africa / North America / South America / Oceania
+  #   lat: 00.0000                     # decimal degrees (positive = N, negative = S)
+  #   lng: 00.0000                     # decimal degrees (positive = E, negative = W)
+  #   dates: "Mon YYYY"
+  #   description: "One sentence."

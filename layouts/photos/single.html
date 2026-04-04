@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{- $locSlug := .Params.location -}}
+{{- $locData := dict -}}
+{{- range .Site.Data.locations.locations -}}
+  {{- if eq .slug $locSlug -}}{{- $locData = . -}}{{- end -}}
+{{- end -}}
+
+<div class="hero" style="height:38vh;min-height:280px;">
+  <div class="hero__bg" style="background:var(--ink);">
+    {{ with index .Params.photos 0 }}
+    <img src="{{ $.Site.Params.cloudinary_base }}/w_1400,q_auto,f_auto/{{ .src }}"
+         alt="{{ $.Title }}" loading="eager" style="opacity:0.5;" />
+    {{ end }}
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow">
+      {{ with $locData }}<a href="/locations/{{ $locSlug }}/" style="color:inherit;">{{ .name }}</a>{{ end }}
+    </p>
+    <h1 class="hero__title">{{ .Title }}</h1>
+    <p class="hero__sub">{{ len .Params.photos }} photographs</p>
+  </div>
+</div>
+
+<div class="container" style="padding-top:2rem;padding-bottom:5rem;">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;
+              margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid var(--border);">
+    <div style="font-size:0.78rem;color:var(--ink-light);">
+      {{ .Date.Format "January 2006" }}
+    </div>
+    {{ with $locData }}
+    <a href="/locations/{{ $locSlug }}/" class="btn btn--outline" style="font-size:0.72rem;">
+      ← Back to {{ .name }}
+    </a>
+    {{ end }}
+  </div>
+
+  <div class="gallery-grid">
+    {{ range .Params.photos }}
+    <div class="gallery-item">
+      <img src="{{ $.Site.Params.cloudinary_base }}/w_900,q_auto,f_auto/{{ .src }}"
+           data-full="{{ $.Site.Params.cloudinary_base }}/w_1800,q_auto,f_auto/{{ .src }}"
+           alt="{{ .caption }}" loading="lazy" />
+      {{ with .caption }}
+      <div class="gallery-caption">{{ . }}</div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+</div>
+
+{{ partial "lightbox.html" . }}
+{{ end }}

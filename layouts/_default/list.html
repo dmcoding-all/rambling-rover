@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container" style="padding-top:3rem;padding-bottom:5rem;">
+  <h1 style="font-family:var(--font-display);font-size:2.5rem;margin-bottom:2rem;">{{ .Title }}</h1>
+  <div class="post-list">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" style="display:block;color:inherit;">
+      <article class="post-row">
+        <div class="post-row__meta">
+          <div class="post-row__date">{{ .Date.Format "Jan 2, 2006" }}</div>
+        </div>
+        <div>
+          <h2 class="post-row__title">{{ .Title }}</h2>
+          <p class="post-row__excerpt">{{ .Summary | truncate 140 "…" }}</p>
+        </div>
+        {{ with .Params.cover }}
+        <div class="post-row__thumb">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" />
+        </div>
+        {{ end }}
+      </article>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

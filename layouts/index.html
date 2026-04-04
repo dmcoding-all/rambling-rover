@@ -1,0 +1,102 @@
+{{ define "main" }}
+
+<!--- HERO ------------------------------------------------->
+<section class="hero hero--home">
+  <div class="hero__bg">
+    {{ with .Params.hero_image }}
+    <img src="{{ . }}" alt="Rambling Rover" loading="eager" fetchpriority="high" />
+    {{ else }}
+    <div style="background:linear-gradient(135deg,#1a3a1a 0%,#2d5016 50%,#1a2a1a 100%);width:100%;height:100%;"></div>
+    {{ end }}
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow">Travel · Backpacking · Photography</p>
+    <h1 class="hero__title">Wander<br><em>further</em>.</h1>
+    <p class="hero__sub">Sixty locations, a thousand miles of trail, and counting. Follow the journey.</p>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2.5rem;">
+      <a href="/posts/" class="btn btn--white">Read the Journal</a>
+      <a href="#map-section" class="btn btn--outline" style="color:#fff;border-color:rgba(255,255,255,0.4);">Explore the Map</a>
+    </div>
+  </div>
+</section>
+
+<!--- WORLD MAP --------------------------------------------->
+<section id="map-section" class="map-section">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eyebrow">{{ len .Site.Data.locations.locations }} locations visited</p>
+      <h2 class="section-title">Explore by destination</h2>
+      <p class="section-sub">Click any marker to find posts, photos, and travel recommendations.</p>
+    </div>
+  </div>
+  <div id="leaflet-map"></div>
+</section>
+
+<!--- FEATURED POSTS ---------------------------------------->
+<section class="featured-section">
+  <div class="container">
+    <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2.5rem;">
+      <div>
+        <p class="section-eyebrow">Latest dispatches</p>
+        <h2 class="section-title">From the trail</h2>
+      </div>
+      <a href="/posts/" class="btn btn--outline">All posts →</a>
+    </div>
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    <div class="posts-grid">
+      {{ range $i, $p := first 5 $posts }}
+      <a href="{{ $p.Permalink }}" class="post-card {{ if eq $i 0 }}post-card--large{{ end }}"
+         style="display:block;position:relative;overflow:hidden;background:var(--cream-dark);{{ if eq $i 0 }}aspect-ratio:16/7;{{ else }}aspect-ratio:4/3;{{ end }}">
+        {{ with $p.Params.cover }}
+        <img src="{{ . }}" alt="{{ $p.Title }}"
+             loading="{{ if le $i 1 }}eager{{ else }}lazy{{ end }}"
+             style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 0.6s ease;" />
+        {{ end }}
+        <div class="post-card__overlay" style="position:absolute;inset:0;background:linear-gradient(to top,rgba(28,28,25,0.85) 0%,transparent 60%);display:flex;align-items:flex-end;padding:1.5rem;">
+          <div class="post-card__info" style="color:#fff;">
+            <div class="post-card__cats">{{ with $p.Params.locations }}{{ delimit . " · " }}{{ end }}</div>
+            <div class="post-card__title" style="font-family:var(--font-display);font-size:1.35rem;line-height:1.2;margin-bottom:0.3rem;">{{ $p.Title }}</div>
+            <div class="post-card__date" style="font-size:0.72rem;opacity:0.55;">{{ $p.Date.Format "Jan 2, 2006" }}</div>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!--- LOCATIONS STRIP -------------------------------------->
+<section style="padding:6rem 0;background:var(--cream-dark);">
+  <div class="container">
+    <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2.5rem;">
+      <div>
+        <p class="section-eyebrow">Around the world</p>
+        <h2 class="section-title">Recent destinations</h2>
+      </div>
+      <a href="/locations/" class="btn btn--outline">All locations →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.5rem;">
+      {{ range first 4 .Site.Data.locations.locations }}
+      <a href="/locations/{{ .slug }}/" style="display:block;">
+        <div class="location-card">
+          <div class="location-card__img" style="aspect-ratio:3/2;overflow:hidden;background:var(--cream-dark);">
+            <img src="{{ $.Site.Params.cloudinary_base }}/w_600,h_400,c_fill,q_auto,f_auto/locations/{{ .slug }}-cover.jpg"
+                 alt="{{ .name }}" loading="lazy"
+                 style="width:100%;height:100%;object-fit:cover;" />
+          </div>
+          <div class="location-card__body" style="padding:1.25rem;">
+            <div class="location-card__continent">{{ .continent }}</div>
+            <div class="location-card__name">{{ .name }}</div>
+            <div class="location-card__dates">{{ .dates }}</div>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ partial "lightbox.html" . }}
+
+{{ end }}
