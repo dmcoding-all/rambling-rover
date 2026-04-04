@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{- $slug := .File.TranslationBaseName -}}
 {{- $locData := dict -}}
-{{- range .Site.Data.locations.locations -}}
+{{- range hugo.Data.locations.locations -}}
   {{- if eq .slug $slug -}}{{- $locData = . -}}{{- end -}}
 {{- end -}}
 

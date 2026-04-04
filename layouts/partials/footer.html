@@ -17,7 +17,7 @@
     <div>
       <div class="footer-col-title">Regions</div>
       <nav class="footer-links">
-        {{ range first 6 .Site.Data.locations.locations }}
+        {{ range first 6 hugo.Data.locations.locations }}
         <a href="/locations/{{ .slug }}/">{{ .name }}</a>
         {{ end }}
       </nav>

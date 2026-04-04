@@ -22,7 +22,7 @@
       zoom: {{ .Site.Params.map_default_zoom | default 2 }}
     };
     const mapLocations = [
-      {{ range .Site.Data.locations.locations -}}
+      {{ range hugo.Data.locations.locations -}}
       {
         id:        "{{ .id }}",
         name:      {{ .name | jsonify }},

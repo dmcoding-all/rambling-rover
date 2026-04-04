@@ -8,7 +8,7 @@
   </div>
   <div class="hero__overlay"></div>
   <div class="hero__content">
-    <p class="hero__eyebrow">{{ len .Site.Data.locations.locations }} destinations explored</p>
+    <p class="hero__eyebrow">{{ len hugo.Data.locations.locations }} destinations explored</p>
     <h1 class="hero__title">Locations</h1>
     <p class="hero__sub">Browse every destination — find posts, photos, and recommendations.</p>
   </div>
@@ -20,7 +20,7 @@
   <div class="continent-tabs filter-bar">
     <button class="filter-btn active" data-continent="all">All</button>
     {{ $continents := slice }}
-    {{ range .Site.Data.locations.locations }}
+    {{ range hugo.Data.locations.locations }}
       {{ $continents = $continents | append .continent }}
     {{ end }}
     {{ range uniq $continents | sort }}
@@ -30,7 +30,7 @@
 
   <!-- Locations grid -->
   <div class="locations-grid">
-    {{ range .Site.Data.locations.locations }}
+    {{ range hugo.Data.locations.locations }}
     <a href="/locations/{{ .slug }}/" style="display:block;">
       <div class="location-card" data-continent="{{ .continent }}">
         <div class="location-card__img">
