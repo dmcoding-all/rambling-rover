@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!mapEl) return;
 
   // Init map
-  const map = L.map('world-map', {
+  const map = L.map('leaflet-map', {
     center: [mapCenter.lat, mapCenter.lng],
     zoom: mapCenter.zoom,
     zoomControl: true,
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <div style="font-family:'DM Sans',sans-serif;">
           <div style="font-family:'Cormorant Garant',Georgia,serif;font-size:1.05rem;color:#fff;margin-bottom:0.25rem;">${loc.name}</div>
           <div style="font-size:0.72rem;color:rgba(255,255,255,0.55);letter-spacing:0.05em;">${loc.dates}</div>
-          <a href="/locations/${loc.slug}/" style="display:inline-block;margin-top:0.6rem;font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;color:#9ec96a;text-decoration:none;">
+          <a href="/rambling-rover/locations/${loc.slug}/" style="display:inline-block;margin-top:0.6rem;font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;color:#9ec96a;text-decoration:none;">
             Explore →
           </a>
         </div>
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
       marker.on('click', function () {
-        window.location.href = '/locations/' + loc.slug + '/';
+        window.location.href = '/rambling-rover/locations/' + loc.slug + '/';
       });
     });
   }
