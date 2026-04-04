@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     scrollWheelZoom: false,
     attributionControl: true,
   });
+  setTimeout(function() { map.invalidateSize(); }, 100);
 
   // CartoDB light tiles — clean, minimal look
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
