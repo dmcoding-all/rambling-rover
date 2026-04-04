@@ -6,7 +6,7 @@
   <title>Page not found — Rambling Rover</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" />
 </head>
 <body>
   {{ partial "nav.html" . }}
@@ -23,12 +23,12 @@
         </p>
         <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
           <a href="/" class="btn btn--primary">Back to home</a>
-          <a href="/posts/" class="btn btn--outline">Browse the journal</a>
+          <a href="{{ "posts/" | relURL }}" class="btn btn--outline">Browse the journal</a>
         </div>
       </div>
     </div>
   </main>
   {{ partial "footer.html" . }}
-  <script src="/js/gallery.js"></script>
+  <script src="{{ "js/gallery.js" | relURL }}"></script>
 </body>
 </html>

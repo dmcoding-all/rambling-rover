@@ -15,7 +15,7 @@
     <h1 class="hero__title">Wander<br><em>further</em>.</h1>
     <p class="hero__sub">Sixty locations, a thousand miles of trail, and counting. Follow the journey.</p>
     <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2.5rem;">
-      <a href="/posts/" class="btn btn--white">Read the Journal</a>
+      <a href="{{ "posts/" | relURL }}" class="btn btn--white">Read the Journal</a>
       <a href="#map-section" class="btn btn--outline" style="color:#fff;border-color:rgba(255,255,255,0.4);">Explore the Map</a>
     </div>
   </div>
@@ -41,7 +41,7 @@
         <p class="section-eyebrow">Latest dispatches</p>
         <h2 class="section-title">From the trail</h2>
       </div>
-      <a href="/posts/" class="btn btn--outline">All posts →</a>
+      <a href="{{ "posts/" | relURL }}" class="btn btn--outline">All posts →</a>
     </div>
     {{ $posts := where .Site.RegularPages "Section" "posts" }}
     <div class="posts-grid">
@@ -74,7 +74,7 @@
         <p class="section-eyebrow">Around the world</p>
         <h2 class="section-title">Recent destinations</h2>
       </div>
-      <a href="/locations/" class="btn btn--outline">All locations →</a>
+      <a href="{{ "locations/" | relURL }}" class="btn btn--outline">All locations →</a>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.5rem;">
       {{ range first 4 .Site.Data.locations.locations }}
