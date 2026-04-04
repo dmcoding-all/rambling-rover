@@ -1,6 +1,6 @@
 <nav class="site-nav">
   <div class="nav-inner">
-    <a href="/" class="nav-logo">
+    <a href="{{ "/" | relURL }}" class="nav-logo">
       <span class="logo-dot"></span>
       Rambling Rover
     </a>
@@ -15,7 +15,7 @@
       <li><a href="{{ "posts/" | relURL }}">Journal</a></li>
       <li><a href="{{ "locations/" | relURL }}">Locations</a></li>
       <li><a href="{{ "photos/" | relURL }}">Photos</a></li>
-      <li><a href="/#world-map">Map</a></li>
+      <li><a href="{{ relURL "" }}#map-section">Map</a></li>
     </ul>
   </div>
 </nav>
