@@ -25,7 +25,7 @@
 <section id="map-section" class="map-section">
   <div class="container">
     <div class="section-header">
-      <p class="section-eyebrow">{{ len hugo.Data.locations.locations }} locations visited</p>
+      <p class="section-eyebrow">{{ len .Site.Data.locations.locations }} locations visited</p>
       <h2 class="section-title">Explore by destination</h2>
       <p class="section-sub">Click any marker to find posts, photos, and travel recommendations.</p>
     </div>
@@ -77,7 +77,7 @@
       <a href="/locations/" class="btn btn--outline">All locations →</a>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.5rem;">
-      {{ range first 4 hugo.Data.locations.locations }}
+      {{ range first 4 .Site.Data.locations.locations }}
       <a href="/locations/{{ .slug }}/" style="display:block;">
         <div class="location-card">
           <div class="location-card__img" style="aspect-ratio:3/2;overflow:hidden;background:var(--cream-dark);">

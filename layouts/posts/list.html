@@ -5,7 +5,7 @@
     <p class="page-header__eyebrow">The Journal</p>
     <h1>All Posts</h1>
     <p style="color:var(--ink-mid);margin-top:0.75rem;max-width:480px;">
-      Field notes, trail journals, and travel dispatches from {{ len hugo.Data.locations.locations }} destinations.
+      Field notes, trail journals, and travel dispatches from {{ len .Site.Data.locations.locations }} destinations.
     </p>
   </div>
 
@@ -25,7 +25,7 @@
   <div class="filter-bar" style="margin-top:-1rem;border-top:none;padding-top:0;">
     <span class="filter-label">Location:</span>
     <button class="filter-btn active" data-filter="all">All</button>
-    {{ range hugo.Data.locations.locations }}
+    {{ range .Site.Data.locations.locations }}
     <button class="filter-btn" data-filter="{{ .id }}">{{ .name }}</button>
     {{ end }}
   </div>

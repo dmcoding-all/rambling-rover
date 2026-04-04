@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{- $locSlug := .Params.location -}}
 {{- $locData := dict -}}
-{{- range hugo.Data.locations.locations -}}
+{{- range .Site.Data.locations.locations -}}
   {{- if eq .slug $locSlug -}}{{- $locData = . -}}{{- end -}}
 {{- end -}}
 
