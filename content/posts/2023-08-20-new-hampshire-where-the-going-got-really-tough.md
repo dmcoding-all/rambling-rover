@@ -4,7 +4,7 @@ date: 2023-08-20
 slug: new-hampshire-where-the-going-got-really-tough
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-hampshire
 categories:
   - appalachian trail
 cover: ""

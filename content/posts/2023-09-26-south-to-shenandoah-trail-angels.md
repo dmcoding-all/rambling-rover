@@ -5,7 +5,7 @@ date: 2023-09-26
 slug: south-to-shenandoah-trail-angels
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - damascus
 categories:
   - appalachian trail
 cover: ""

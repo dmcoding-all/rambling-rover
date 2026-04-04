@@ -5,7 +5,6 @@ slug: the-best-way-to-explore-iguazu-falls-argentina
 draft: false
 locations:
   - buenos-aires
-  - iguazu
 categories:
   - how-to
   - south america

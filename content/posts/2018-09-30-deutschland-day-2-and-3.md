@@ -6,7 +6,6 @@ slug: deutschland-day-2-and-3
 draft: false
 locations:
   - germany
-  - switzerland
 categories:
   - europe
   - study abroad

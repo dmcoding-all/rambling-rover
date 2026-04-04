@@ -5,7 +5,7 @@ date: 2023-05-06
 slug: our-travels-in-patagonia-torres-del-paine-and-el-chalten
 draft: false
 locations:
-  - patagonia
+  - pai
 categories:
   - south america
   - travel blog

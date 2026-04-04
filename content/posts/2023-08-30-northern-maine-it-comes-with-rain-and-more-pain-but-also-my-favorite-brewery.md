@@ -4,7 +4,7 @@ date: 2023-08-30
 slug: northern-maine-it-comes-with-rain-and-more-pain-but-also-my-favorite-brewery
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-maine
 categories:
   - appalachian trail
 cover: ""

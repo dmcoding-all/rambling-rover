@@ -5,7 +5,7 @@ date: 2023-12-12
 slug: damascus-va-and-biking-the-creeper-trail
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - damascus
 categories:
   - appalachian trail
 cover: ""

@@ -4,6 +4,7 @@ date: 2019-06-08
 slug: chiang-mai-trekking-and-elephants
 draft: false
 locations:
+  - bangkok
 categories:
   - asia
   - travel blog

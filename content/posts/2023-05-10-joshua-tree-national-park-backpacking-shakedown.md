@@ -4,6 +4,7 @@ date: 2023-05-10
 slug: joshua-tree-national-park-backpacking-shakedown
 draft: false
 locations:
+  - appalachian-trail-georgia
 categories:
   - gear + reviews
 cover: ""

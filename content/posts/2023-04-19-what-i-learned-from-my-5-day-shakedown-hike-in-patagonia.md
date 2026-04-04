@@ -5,6 +5,7 @@ date: 2023-04-19
 slug: what-i-learned-from-my-5-day-shakedown-hike-in-patagonia
 draft: false
 locations:
+  - appalachian-trail-georgia
 categories:
   - gear + reviews
   - travel blog

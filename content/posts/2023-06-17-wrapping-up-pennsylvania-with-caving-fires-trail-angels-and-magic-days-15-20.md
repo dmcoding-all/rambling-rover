@@ -4,7 +4,7 @@ date: 2023-06-17
 slug: wrapping-up-pennsylvania-with-caving-fires-trail-angels-and-magic-days-15-20
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-pennsylvania
 categories:
   - appalachian trail
 cover: ""

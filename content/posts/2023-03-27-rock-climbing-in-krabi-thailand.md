@@ -5,6 +5,7 @@ date: 2023-03-27
 slug: rock-climbing-in-krabi-thailand
 draft: false
 locations:
+  - bangkok
 categories:
   - asia
   - travel blog

@@ -5,7 +5,7 @@ date: 2023-08-25
 slug: nh-from-gorham-to-gorham-the-wildcat-and-carter-mountains
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-hampshire
 categories:
   - appalachian trail
 cover: ""

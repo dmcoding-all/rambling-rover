@@ -5,7 +5,7 @@ date: 2023-08-23
 slug: franconia-ridge-the-presidential-range-mt-washington
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-hampshire
 categories:
   - appalachian trail
 cover: ""

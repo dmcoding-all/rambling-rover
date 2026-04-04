@@ -4,7 +4,7 @@ date: 2023-07-06
 slug: new-jersey-days-23-27
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-jersey
 categories:
   - appalachian trail
 cover: ""

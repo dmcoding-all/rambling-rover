@@ -5,6 +5,7 @@ date: 2018-10-21
 slug: ceilidhs-galore
 draft: false
 locations:
+  - edinburgh
 categories:
   - study abroad
 cover: ""

@@ -5,7 +5,7 @@ date: 2023-10-11
 slug: the-va-triple-crown-my-sketchiest-stunts-lowest-moral-and-a-much-needed-family-visit
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - damascus
 categories:
   - appalachian trail
   - gear + reviews

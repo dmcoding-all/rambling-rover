@@ -4,6 +4,7 @@ date: 2023-05-10
 slug: secret-canyon-trail-backpacking-shakedown-3
 draft: false
 locations:
+  - appalachian-trail-georgia
 categories:
   - gear + reviews
 cover: ""

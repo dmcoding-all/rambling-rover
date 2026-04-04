@@ -5,6 +5,7 @@ date: 2019-06-04
 slug: new-york-new-memories
 draft: false
 locations:
+  - new-york
 categories:
   - north america
   - travel blog

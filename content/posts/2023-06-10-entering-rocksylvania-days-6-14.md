@@ -4,7 +4,7 @@ date: 2023-06-10
 slug: entering-rocksylvania-days-6-14
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-pennsylvania
 categories:
   - appalachian trail
 cover: ""

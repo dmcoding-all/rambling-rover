@@ -5,6 +5,7 @@ date: 2023-03-27
 slug: climbing-tiger-cave-temple-wat-tham-sua
 draft: false
 locations:
+  - krabi
 categories:
   - asia
   - travel blog

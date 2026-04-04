@@ -5,6 +5,7 @@ date: 2023-07-13
 slug: the-step-tracking-app-all-hikers-should-have-on-their-phone
 draft: false
 locations:
+  - appalachian-trail-georgia
 categories:
   - gear + reviews
 cover: ""

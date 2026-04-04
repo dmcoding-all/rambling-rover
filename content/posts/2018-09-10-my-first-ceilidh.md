@@ -5,6 +5,7 @@ date: 2018-09-10
 slug: my-first-ceilidh
 draft: false
 locations:
+  - edinburgh
 categories:
   - study abroad
 cover: ""

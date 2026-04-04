@@ -5,6 +5,7 @@ date: 2019-06-09
 slug: bangkok-the-beginning-of-thailand
 draft: false
 locations:
+  - bangkok
 categories:
   - asia
   - travel blog

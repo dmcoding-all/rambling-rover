@@ -5,7 +5,6 @@ slug: my-cousin-visits-pt-ii-iguazu-falls
 draft: false
 locations:
   - buenos-aires
-  - iguazu
 categories:
   - south america
   - travel blog

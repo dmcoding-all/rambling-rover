@@ -5,6 +5,7 @@ date: 2018-09-21
 slug: touch-rugby-socials-and-my-adventure-plans-for-the-future
 draft: false
 locations:
+  - edinburgh
 categories:
   - study abroad
 cover: ""

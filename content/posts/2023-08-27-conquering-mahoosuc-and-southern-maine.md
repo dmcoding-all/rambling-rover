@@ -5,7 +5,7 @@ date: 2023-08-27
 slug: conquering-mahoosuc-and-southern-maine
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-hampshire
 categories:
   - appalachian trail
 cover: ""

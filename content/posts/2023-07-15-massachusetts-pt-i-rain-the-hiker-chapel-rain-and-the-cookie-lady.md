@@ -4,7 +4,7 @@ date: 2023-07-15
 slug: massachusetts-pt-i-rain-the-hiker-chapel-rain-and-the-cookie-lady
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-york
 categories:
   - appalachian trail
 cover: ""

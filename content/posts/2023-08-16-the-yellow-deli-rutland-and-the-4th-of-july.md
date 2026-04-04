@@ -5,7 +5,7 @@ date: 2023-08-16
 slug: the-yellow-deli-rutland-and-the-4th-of-july
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-vermont
 categories:
   - appalachian trail
 cover: ""

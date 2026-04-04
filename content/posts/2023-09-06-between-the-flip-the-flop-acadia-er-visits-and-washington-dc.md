@@ -4,7 +4,7 @@ date: 2023-09-06
 slug: between-the-flip-the-flop-acadia-er-visits-and-washington-dc
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-hampshire
 categories:
   - appalachian trail
 cover: ""

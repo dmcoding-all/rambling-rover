@@ -4,7 +4,7 @@ date: 2023-07-08
 slug: warwick-ny-where-a-drive-in-meets-a-cidery
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-york
 categories:
   - appalachian trail
 cover: ""

@@ -5,7 +5,7 @@ date: 2023-12-09
 slug: marion-va-the-grayson-highlands
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - damascus
 categories:
   - appalachian trail
 cover: ""

@@ -4,7 +4,7 @@ date: 2023-06-29
 slug: delaware-water-gap-days-21
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-york
 categories:
   - appalachian trail
 cover: ""

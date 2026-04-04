@@ -5,7 +5,7 @@ date: 2023-07-14
 slug: connecticut-it-was-beautiful-until-it-was-shrouded-in-rain-and-fog-plus-my-trail-name-reveal
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-york
 categories:
   - appalachian trail
 cover: ""

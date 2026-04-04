@@ -4,7 +4,7 @@ date: 2023-09-02
 slug: its-here-the-100-mile-wilderness
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-maine
 categories:
   - appalachian trail
 cover: ""

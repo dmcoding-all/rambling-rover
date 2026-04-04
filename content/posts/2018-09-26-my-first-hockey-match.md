@@ -5,6 +5,7 @@ date: 2018-09-26
 slug: my-first-hockey-match
 draft: false
 locations:
+  - edinburgh
 categories:
   - study abroad
 cover: ""

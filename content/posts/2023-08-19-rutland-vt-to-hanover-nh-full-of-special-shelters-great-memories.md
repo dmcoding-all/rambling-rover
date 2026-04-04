@@ -4,7 +4,7 @@ date: 2023-08-19
 slug: rutland-vt-to-hanover-nh-full-of-special-shelters-great-memories
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-vermont
 categories:
   - appalachian trail
 cover: ""

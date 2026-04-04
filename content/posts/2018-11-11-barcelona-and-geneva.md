@@ -5,7 +5,7 @@ date: 2018-11-11
 slug: barcelona-and-geneva
 draft: false
 locations:
-  - switzerland
+  - spain
 categories:
   - europe
   - study abroad

@@ -4,7 +4,7 @@ date: 2023-07-16
 slug: massachusetts-pt-ii-home-baked-goodies-new-slippery-shoes-and-biking
 draft: false
 locations:
-  - appalachian-trail-georgia
+  - appalachian-trail-new-york
 categories:
   - appalachian trail
 cover: ""

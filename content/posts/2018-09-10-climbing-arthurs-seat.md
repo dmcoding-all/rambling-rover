@@ -5,6 +5,7 @@ date: 2018-09-10
 slug: climbing-arthurs-seat
 draft: false
 locations:
+  - edinburgh
 categories:
   - study abroad
 cover: ""
