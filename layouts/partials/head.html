@@ -46,7 +46,7 @@
 <!-- Styles -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="/css/main.css" />
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}" />
 
 <!-- Reading progress bar (single posts) -->
 {{ if and .IsPage (eq .Section "posts") }}
