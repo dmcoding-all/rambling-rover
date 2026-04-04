@@ -1,7 +1,7 @@
 baseURL: "https://dmcoding-all.github.io/rambling-rover/"
 languageCode: "en-us"
 title: "Rambling Rover"
-theme: ""
+
 
 # Pagination
 paginate: 12
