@@ -10,39 +10,62 @@
   </main>
   {{ partial "footer.html" . }}
 
-  <!-- Leaflet (loaded on all pages; map.js checks if #leaflet-map exists) -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-  <!-- Map data (injected globally; safe if mapLocations unused) -->
+  <!-- Leaflet + Map (loads only if map div exists) -->
   <script>
-    const mapCenter = {
-      lat: {{ .Site.Params.map_default_lat | default 30 }},
-      lng: {{ .Site.Params.map_default_lng | default 10 }},
-      zoom: {{ .Site.Params.map_default_zoom | default 2 }}
-    };
-    const mapLocations = [
-      {{ range .Site.Data.locations.locations -}}
-      {
-        id:        "{{ .id }}",
-        name:      {{ .name | jsonify }},
-        lat:       {{ .lat }},
-        lng:       {{ .lng }},
-        dates:     {{ .dates | jsonify }},
-        slug:      "{{ .slug }}",
-        continent: "{{ .continent }}"
-      },
-      {{ end -}}
-    ];
+    function initMap() {
+      var mapEl = document.getElementById('leaflet-map');
+      if (!mapEl) return;
+      var map = L.map('leaflet-map', {
+        center: [{{ .Site.Params.map_default_lat | default 30 }}, {{ .Site.Params.map_default_lng | default 10 }}],
+        zoom: {{ .Site.Params.map_default_zoom | default 2 }},
+        scrollWheelZoom: false
+      });
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '© OpenStreetMap contributors © CARTO',
+        subdomains: 'abcd',
+        maxZoom: 20
+      }).addTo(map);
+      var locations = [
+        {{ range .Site.Data.locations.locations -}}
+        { lat: {{ .lat }}, lng: {{ .lng }}, name: {{ .name | jsonify }}, dates: {{ .dates | jsonify }}, slug: "{{ .slug }}" },
+        {{ end -}}
+      ];
+      locations.forEach(function(loc) {
+        var icon = L.divIcon({
+          className: '',
+          html: '<div class="map-marker-outer"></div>',
+          iconSize: [14, 14],
+          iconAnchor: [7, 7],
+          popupAnchor: [0, -10]
+        });
+        var marker = L.marker([loc.lat, loc.lng], { icon: icon }).addTo(map);
+        marker.bindPopup('<div style="color:#fff;font-family:sans-serif;"><strong style="font-size:1rem;display:block;margin-bottom:4px;">' + loc.name + '</strong><span style="font-size:0.75rem;opacity:0.6;">' + loc.dates + '</span><br><a href="/rambling-rover/locations/' + loc.slug + '/" style="color:#9ec96a;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;">Explore →</a></div>', { maxWidth: 220 });
+        marker.on('mouseover', function() { this.openPopup(); });
+        marker.on('click', function() { window.location.href = '/rambling-rover/locations/' + loc.slug + '/'; });
+      });
+      setTimeout(function() { map.invalidateSize(); }, 200);
+    }
+
+    function loadLeaflet() {
+      var css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+      document.head.appendChild(css);
+      var script = document.createElement('script');
+      script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+      script.onload = function() { initMap(); };
+      document.body.appendChild(script);
+    }
+
+    if (document.getElementById('leaflet-map')) {
+      if (document.readyState === 'complete') {
+        loadLeaflet();
+      } else {
+        window.addEventListener('load', loadLeaflet);
+      }
+    }
   </script>
 
-  <script>
-  window.addEventListener('load', function() {
-    var s = document.createElement('script');
-    s.src = '{{ "js/map.js" | relURL }}';
-    document.body.appendChild(s);
-  });
-</script>
   <script src="{{ "js/gallery.js" | relURL }}"></script>
 </body>
 </html>
