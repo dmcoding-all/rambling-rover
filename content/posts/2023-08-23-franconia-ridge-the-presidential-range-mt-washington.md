@@ -1,0 +1,366 @@
+---
+title: Franconia Ridge, The Presidential Range &amp; Mt Washington
+...
+date: 2023-08-23
+slug: franconia-ridge-the-presidential-range-mt-washington
+draft: false
+locations:
+  - appalachian-trail-georgia
+categories:
+  - appalachian trail
+cover: ""
+description: ""
+has_affiliate_links: false
+---
+
+Day #: 68
+
+Miles Since Last Update: 53 mi.
+
+Total Miles Hiked: 853 mi.
+
+Miles Remaining: 1,344 mi.
+
+### The Whites and AMC
+
+New Hampshire’s White Mountain Range is filled with huts and
+campsites run by the Appalachian Mountain Club (AMC). Staying at a hut
+typically costs over $100, so they’re not full of thru-hikers but
+instead they are primarily locations for mountain-loving vacationers
+(The Whites are very popular tourist location in New England). The huts
+do take in 2 thru-hikers a night who can work-for-stay, and often they
+will put out their leftover breakfast for us thru-hikers to eat as we
+pass by. The campsites, on the other hand, cost $15 and the AMC has
+created a thru-hiker pass which allows for thru-hikers to get some
+discounts while in the whites:
+
+The thru-hiker pass discounts a hikers first campsite to only $10,
+all all subsequent campsites to $5. Plus, you  get 2 free baked
+goods and one free bowl of soup at a hut in addition to other discounts
+at select AMC locations.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17025618/5DA35EEE-DF47-4D93-B701-F5DF3D651462-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17025618/5DA35EEE-DF47-4D93-B701-F5DF3D651462-scaled.jpeg)
+
+Outside of these official campsites, the last option a thru-hiker
+has is to Stealth camp. The main important difference between The Whites
+and most of the rest of the AT is that sections of The White Mountains
+are located in the Alpine Zone, above tree line, where it is dangerous
+(and thus not allowed) to stealth camp. So if one wants to stealth, they
+need to plan their days accordingly.
+
+### Day 64 – Franconia Ridge
+
+I struck gold and hiked along the Franconia Ridge on a gorgeous day.
+The Franconia Ridge lies above the tree line, providing gorgeous views
+as one climbs one mountain after another, including but not limited to:
+Mount Lafayette, Mount Lincoln, and Little Haystack. It is the
+second-highest range of peaks in the White Mountains, and arguably one
+of the most popular hikes in New England. This Franconia Ridge hike sees
+up to [1,000
+hikers a day](https://www.outdoors.org/resources/amc-outdoors/news/franconia-ridge-trail-loop-gets-boost-in-federal-budget/), according to the Appalachian Mountain Club . I entered
+this stage of the AT with much anticipation because many hikers I met on
+the trail in New England told me it is  one of the most beautiful
+hikes in the White Mountains if not on the whole AT.
+
+So, I will mainly share my time on the Franconia Ridge with you
+through photos:[](https://photos.thetrek.co/wp-content/uploads/2023/08/17025631/5B4C77B5-C6E3-4162-953A-4F05D0D15D5C-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17025640/B0CC11DF-4FAB-4B05-A832-EFF958A7B88D-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17025640/B0CC11DF-4FAB-4B05-A832-EFF958A7B88D.jpeg)Looking back on the climbs I completed
+previously
+
+### [](https://photos.thetrek.co/wp-content/uploads/2023/08/17025654/64536FA2-DAB0-4CDA-90B8-52130EAE08D1-scaled.jpeg)
+[](https://photos.thetrek.co/wp-content/uploads/2023/08/17025708/F873489A-0296-42E2-AFA4-EE2EDD50EE8A-scaled.jpeg)
+[](https://photos.thetrek.co/wp-content/uploads/2023/08/17025715/D545A399-0FE6-4878-A997-E51B2BA2048C.jpeg)
+[](https://photos.thetrek.co/wp-content/uploads/2023/08/17025723/9E4B04A3-46A8-4219-97F6-6B082F0A4516.jpeg)
+[](https://photos.thetrek.co/wp-content/uploads/2023/08/17025735/B957C0C5-91F1-4377-878F-1BC4AE33A75D-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17025751/9C38C04F-B3E8-4EBD-BF4A-B29BB11E3A98-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17025751/9C38C04F-B3E8-4EBD-BF4A-B29BB11E3A98-scaled.jpeg)Apparently these flowers also bloom in
+Antarctica!
+
+### [](https://photos.thetrek.co/wp-content/uploads/2023/08/17025824/D5D5528D-AA07-465A-875D-D90C37F0143D-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17025841/4C939148-A557-4B86-97A8-45B1AD9048A9-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17025841/4C939148-A557-4B86-97A8-45B1AD9048A9-scaled.jpeg)I may be getting a signature
+pose
+
+[](https://photos.thetrek.co/wp-content/uploads/2023/08/17025948/DBC944E7-7A9C-44FD-BE8C-A6D222DF10FF.jpeg)I’m
+not going to lie and say that hiking the Franconia Ridge was an easy
+day. Quite the opposite in fact: it was a steep, hard climb out of
+Lincoln, NH up to the elevation of Franconia Ridge, which is located in
+the alpine zone. But once up there, I felt that the beauty around me
+helped distract me from climbing up and down the multiple mountain peaks
+along the way.
+
+I ended my day stealth campaign at the northern base of Garfield
+Mountain.
+
+### Day 65 - Mt. Garfield to Ripley Falls
+
+Not much to say other than that in  comparison to the day prior,
+this day was mostly sad, cloudy, and miserable (thanks to rain making me
+wet and sad and obscuring any view which may have made the day
+worthwhile).
+
+I did stop at my first hut, the Zealand Hit, and used my AMC pass for
+a warm bowl of soup (just what the doctor ordered on a rainy day).[](https://photos.thetrek.co/wp-content/uploads/2023/08/17030615/8FB4E282-2FCC-44E3-97D0-3617AD2285F4-scaled.jpeg)
+
+### Day 66 - Ripley Falls to Mizpah Spring Hut
+��
+
+This is the day I formed a Tramily with Popeye, Recon, Elf, Clueless,
+and The Little Prince (Elf’s service dog).
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17032300/AACD75A8-1F27-4353-A9C5-EBB1D190790A-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17032300/AACD75A8-1F27-4353-A9C5-EBB1D190790A-scaled.jpeg)
+
+I started this morning solo, climbing up Mt Webster with the plan to
+end at the Lakes of the Clouds Hut.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17032353/EAAC98F6-2D91-4768-9DDD-0398C98F570A-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17032353/EAAC98F6-2D91-4768-9DDD-0398C98F570A-scaled.jpeg)
+
+At the Webster Cliffs I ran into the familiar faces of Elf, Clueless,
+and their dog, the Little Prince. Elf and Clueless are a couple who I
+met early on in my time in PA. They are trying to complete their triple
+crown and trying to reach Katahdin by their 50th wedding anniversary. I
+also ran into Recon and Popeye. Recon I had met at The Yellow Deli. He
+too had been knocked off the trail for a few days due to COVID. Popeye
+and I immediately felt like we had known each other from before, but we
+could not pin-point why or how.
+
+Without any official decision or word, we fell into a group, sticking
+together to help each other out as we continuously ran into steep rock
+faces one after the other.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17032315/3F92F53D-2FA6-459C-A45C-DA1F4BF9FD97-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17032315/3F92F53D-2FA6-459C-A45C-DA1F4BF9FD97-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17032424/50E53674-26B3-4F19-9128-015361F80866-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17032424/50E53674-26B3-4F19-9128-015361F80866.jpeg)
+
+When we got to the Mitzpah Spring Hut, it was still early afternoon,
+but warnings of afternoon showers hunted our minds. We knew that
+climbing up to the Lake of the Clouds Hut was risky because if the hut
+was full, they would deny us, and we would have to hike all the way back
+down to a safe campsite below the alpine zone. It's typically a four
+hour one-way hike from Mitzpah to the Lake of the Clouds Hut, so it's a
+pretty big deal if you get denied. All things combined we decided it was
+better to play it safe and stay at the Mitzpah hut (Recon, Popeye, and I
+shared a tent platform). We formed a plan to do the entirety of The
+Presidentials the following day, and spent the rest of our afternoon
+playing cards and enjoying each others company.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17032417/BB2D9F44-7FBE-4F5A-88E9-154A9B68E075-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17032417/BB2D9F44-7FBE-4F5A-88E9-154A9B68E075-scaled.jpeg)
+
+Near the end of our day hiking, Popeye and I finally figured out how
+we knew each other! She had been at the campsite on my second night on
+the trail. You may recall from one of my earlier posts that, at that
+campsite, a man harassed myself and a fellow thru-hiker, another young
+woman named Saratonin, and Popeye had come up to us to check if we were
+OK.
+
+Because of Popeye, I felt protected and a part of the thru-hiking
+community in a moment where I could've had a really bad experience. So
+it was special to have found her again!
+
+### Day 67 - The Presidential Range & Mt
+Washington
+
+According to Wikipedia “The Presidential Range is a mountain range
+located in the White Mountains… containing the highest peaks of the
+Whites, its most notable summits are named for American presidents… The
+Presidential Range is notorious for having some of the worst weather on
+Earth , mainly because of the unpredictability
+of high wind speeds and whiteout conditions on the higher summits.”
+
+Lastly, it’s important to know that The Presidential Range all lies
+in the Alpine Zone which is a no-stealth-site area. So unless one is
+staying at a AMC hut, you must traverse the entire range in one day in
+order to climb back down below the alpine zone for tenting.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033603/D72DBB94-E7CB-467E-9EA8-EDE5049E80FE-scaled-e1692265348587-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033603/D72DBB94-E7CB-467E-9EA8-EDE5049E80FE-scaled.jpeg)Pink=Alpine/No camping
+Zone
+
+#### The Approach
+
+Our approach to Mt Washington found us waking up at 4 AM to get a
+headstart on the trail.
+
+Even though I was tired and slightly grumpy having to wake up at 4 AM
+I did not regret it for a minute once we were on the trail. The sunrise
+over the mountains combined with finally being able to see over the
+treetops made for a stunning morning. I mostly hiked with Recon and
+Popeye that morning, although Elf, Clueless, and The Little Prince were
+never far behind. The entire time we were in awe of the views (prepare
+for a bombardment of photos)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033621/610D7252-EB50-483B-8CC4-0BFC903B9B74-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033621/610D7252-EB50-483B-8CC4-0BFC903B9B74-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033643/54E3B620-8EA5-4CAA-8A46-8D0A86200E6B-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033643/54E3B620-8EA5-4CAA-8A46-8D0A86200E6B-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033706/1FD67B06-C250-4EBB-A56B-4E0AC5139D79-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033706/1FD67B06-C250-4EBB-A56B-4E0AC5139D79-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033715/B157FF1E-DC9F-44DF-A342-316752617682-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033715/B157FF1E-DC9F-44DF-A342-316752617682.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033732/44E26E89-0FCC-4597-9A36-A1B5B712D3C9-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033732/44E26E89-0FCC-4597-9A36-A1B5B712D3C9-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033747/612FE019-76EC-4488-BC74-1D522CCF822D-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033747/612FE019-76EC-4488-BC74-1D522CCF822D-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033808/1829BA39-43DB-4AF1-B5F9-59BBE297A615-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033808/1829BA39-43DB-4AF1-B5F9-59BBE297A615-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033858/867468AB-BFA8-4EB2-847F-4804E5254FB7-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033858/867468AB-BFA8-4EB2-847F-4804E5254FB7-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033916/B04E6DF2-B649-4C07-900D-CD0179ED6054-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033916/B04E6DF2-B649-4C07-900D-CD0179ED6054-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17033931/7D03BDF8-297F-4F50-9399-C82FFD12CAF3-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17033931/7D03BDF8-297F-4F50-9399-C82FFD12CAF3-scaled.jpeg)
+
+[
+](https://photos.thetrek.co/wp-content/uploads/2023/08/17033603/D72DBB94-E7CB-467E-9EA8-EDE5049E80FE-scaled.jpeg)
+
+We arrived to the Lake of the Clouds hut in time for leftover
+breakfast, which fueled us for the ascent of Washington. You may notice
+that in some of these photos there's a Mountain in the distance
+surrounded by a cloud. It was, of course, Mount Washington.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17034413/73225F09-6A6F-45BC-8857-9E17226D78EE-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17034413/73225F09-6A6F-45BC-8857-9E17226D78EE-scaled.jpeg)
+
+#### The Summit
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17034552/32F5181B-4CCF-4C74-8F4B-14934387C0C4-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17034552/32F5181B-4CCF-4C74-8F4B-14934387C0C4-scaled.jpeg)
+
+As we hiked up into the cloud, our vision blurred, and slowly, we
+were restricted to seeing less and less in front of us. We could see
+each other, but we couldn’t see much more. It got cold, and it got
+windy. We kept hiking up up up, and the beauty of the whole scenario is
+that we were never put off by the cloudy bad weather in Mount
+Washington. In fact, we were cheerful, we were high on life. We were
+whooping and yelling and laughing with glee, because we had made it. We
+were climbing Mt Washington.
+And it didn’t matter that the weather
+was terrible, in fact, it kind of felt like an appropriate Appalachian
+Trail moment. Having a sunny day on Mt Washington?!?! Unheard of. Being
+socked in on the top of the peak, now that’s AT thru hiking.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17034709/E57867E5-9E66-4526-8435-74D886C22A94-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17034709/E57867E5-9E66-4526-8435-74D886C22A94-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17034726/F463808D-3497-4AD4-99FB-C9BBCAC298FA-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17034726/F463808D-3497-4AD4-99FB-C9BBCAC298FA-scaled.jpeg)
+
+There is a nice visitor center at the top of the mountain that we
+were able to duck into and get some food, and most importantly
+postcards!
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17034830/06AAC928-EA4A-444F-A0DA-B59BA4586FA1-700x875.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17034830/06AAC928-EA4A-444F-A0DA-B59BA4586FA1.jpeg)Popeye showing how far she (a NOBO) has come
+to get here
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17034849/C7491FA6-ECF5-4B3D-8947-B2592D8C6267-700x872.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17034849/C7491FA6-ECF5-4B3D-8947-B2592D8C6267.jpeg)The clouds broke for a moment as the 5 of us
+took our photo and I kid you not… everyone on the mountain cheered for
+the brief moment of sunlight
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17034836/A77511B1-E5E1-4784-8147-D76090E5D867-e1692265784878-700x560.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17034836/A77511B1-E5E1-4784-8147-D76090E5D867-e1692265784878.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17034842/68C5145E-2C5D-4D5A-A16C-9DAF52D0261E-700x875.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17034842/68C5145E-2C5D-4D5A-A16C-9DAF52D0261E.jpeg)
+
+We hung out there with Elf, Clueless, and the Little Prince, just
+happy that we had made it to Washington and there wasn't a blizzard in
+the middle of July.
+
+#### The Descent
+
+After the joyful celebration of the cloudy summit of Mt Washington,
+because it didn’t have wind speeds that could wipe us off the planet, we
+then had to finish our journey across the Presidential Range.
+
+Luckily, as soon as we hiked down off Mt Washington, we also hiked
+down out of the cloud, and we were greeted once more with gorgeous
+alpine views:
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17035724/6ED6A6A5-774F-4EC2-A4F6-D5E3D0E693CE-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17035724/6ED6A6A5-774F-4EC2-A4F6-D5E3D0E693CE-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17035750/CFEB1668-5C23-4314-940E-70B7B951618A-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17035750/CFEB1668-5C23-4314-940E-70B7B951618A-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17035813/1456FD3A-ABDB-4ACC-BBDC-0A624248C876-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17035813/1456FD3A-ABDB-4ACC-BBDC-0A624248C876-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17035840/AB9A9950-C86F-487A-8A6E-987BB92689E8-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17035840/AB9A9950-C86F-487A-8A6E-987BB92689E8-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17035903/E47F460C-F8C6-429A-913A-7F0CB7824389-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17035903/E47F460C-F8C6-429A-913A-7F0CB7824389-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17035912/3835AF63-1EAE-4C51-B591-F0F24EF877A2-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17035912/3835AF63-1EAE-4C51-B591-F0F24EF877A2.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17035926/0BD1C621-8286-4C3A-ADCA-8D79C2E4DAED-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17035926/0BD1C621-8286-4C3A-ADCA-8D79C2E4DAED-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17035945/F2DDD5CC-C35D-4BED-836D-3FB42CD507BE-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17035945/F2DDD5CC-C35D-4BED-836D-3FB42CD507BE-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17040023/1F9651BD-6B81-47DD-816D-58D24F8351F2-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17040023/1F9651BD-6B81-47DD-816D-58D24F8351F2-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17040053/2310CA5D-0B65-46CC-8597-2D108D54DFA8-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17040053/2310CA5D-0B65-46CC-8597-2D108D54DFA8-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17040115/B349DEF6-7DB8-43D3-A89D-FC80218B51C0-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17040115/B349DEF6-7DB8-43D3-A89D-FC80218B51C0-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17040149/121FB8F7-AAA3-4952-8D3D-BC61698E2D4C-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17040149/121FB8F7-AAA3-4952-8D3D-BC61698E2D4C-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17040218/A661E3BA-B5BF-48D5-B3CF-64A3F0228BFE-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17040218/A661E3BA-B5BF-48D5-B3CF-64A3F0228BFE-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17040244/129074AA-3451-4A15-B28D-D2DCBC4094A8-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17040244/129074AA-3451-4A15-B28D-D2DCBC4094A8-scaled.jpeg)
+
+#### The Cog Tradition
+
+If one doesn’t want to brave the rough overland adventure of hiking
+across the Presidentials to get to Washington, nor drive up the mountain
+to fight off other cars for parking lots, there is a third option
+readily available: The Cog.
+
+The Mount Washington Cog Railway, AKA the Cog, is the world's first
+mountain-climbing cog railway and apparently the second steepest rack
+railway in the world (after the Pilatus Railway in Switzerland). It
+takes about an hour for the steam locomotive to make its way to the
+6288' summit of Mount Washington. And if cog-riders are lucky, they may
+get to glimpse along the way a tradition as old as time… or at least as
+old as the AT.
+
+It is AT Thru-Hiker tradition to moon the cog. And even though I
+couldn’t get anyone in my tramily to join me, that wasn’t going to cause
+me to shirk tradition
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/17040638/3E352D3C-F3D9-457F-8701-1865134596C5-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/17040638/3E352D3C-F3D9-457F-8701-1865134596C5.jpeg)Photo edited to be appropriate for all
+audiences
+
+Getting down from The Presidentials required us to climb up, over,
+and down Mt Madison which absolutely destroyed my knees like nothing
+else. Not to mention, Mt Madison required us to scramble up a rocky
+precipice and do our best not to tumble to our deaths.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18055127/IMG_3488-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18055127/IMG_3488-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18055205/IMG_2501-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18055205/IMG_2501-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18055218/IMG_2080-700x378.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18055218/IMG_2080-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18055228/IMG_2006-700x394.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18055228/IMG_2006-scaled.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18055237/Resized_20230723_173144_196864462660992-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18055237/Resized_20230723_173144_196864462660992.jpeg)
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18055245/IMG_3265-700x1267.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18055245/IMG_3265.jpeg)
+
+## Day 68 - Nero into Gorham, NH
+
+The next day, we dragged our sore, tired bodies out of our tents at
+the Osgood campsite, and hiked the short jaunt to the Pinkham Visitors
+Center. Before meeting my White Mountain Range Tramily, I had planned to
+keep pushing through and go straight into the Wildcats. But now, sitting
+in the visitor center with my knees badly crying for ice, and hearing
+Recon tell Popeye about the amazing BBQ in town (Road Hawg BBQ Swine
+Dining) and hearing their offer to all share a hotel room together… my
+resolve broke and I (happily) decided to Nero in town that day.
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18060047/IMG_2525-700x525.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18060047/IMG_2525-scaled.jpeg)Appreciation for Deanne and all others who go
+out of their way to help hikers out!
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18060112/IMG_2561-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18060112/IMG_2561-scaled.jpeg)Can confirm: the BBQ was worth all the
+hype
+
+[![](https://photos.thetrek.co/wp-content/uploads/2023/08/18060057/FullSizeRender-700x933.jpeg)](https://photos.thetrek.co/wp-content/uploads/2023/08/18060057/FullSizeRender-scaled.jpeg)
+
+We stood outside the visitors center and successfully got 2 hitches
+within just a couple of minutes: a truck to carry Clueless, Elf, and The
+Little Prince, and one to t drive in myself, Popeye, and Recon. The
+woman (Deanne) who picked up myself, Popeye, and Recon had hiked a good
+portion of the AT and was in the area waiting for her siblings to come
+out of The Whites.
+Deanne was kind enough not only to drive us into
+town (a ~15mi drive), but to go a step further and drive us to Walmart
+to resupply and hang out there to bring us back to our hotel after.

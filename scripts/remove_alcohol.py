@@ -38,12 +38,12 @@ from collections import defaultdict
 REPLACEMENTS = [
     # Drinking actions → generic
     (r'\bgrabbed? (a|some) (pint|beer|beers|wine|gin|whisky|whiskey|cider|lager|ale)\b', r'grabbed a drink'),
-    (r'\border(ed|ing)? (a|some) (pint|beer|beers|wine|gin|whisky|whiskey|cider)\b', r'ordered \1 a drink'),
+    (r'\border(ed|ing)? (a|some) (pint|beer|beers|wine|gin|whisky|whiskey|cider)\b', r'ordered a drink'),
     (r'\bhad (a|some) (pint|beer|beers|wine|gin|whisky|whiskey|cider|lager|ale|dram)\b', r'had a drink'),
     (r'\bshared (a|some) (bottle of wine|pint|beers|bottle)\b', r'shared a meal'),
     (r'\bpair(ed|s)? (nicely|well|perfectly)? with (wine|beer|a pint|gin|cocktails?)\b', r'pair\1 perfectly with good company'),
     (r'\b(wine|beer|pint|gin|cocktails?) pair(s|ed|ing)?\b', r'a great pairing'),
-    (r'\bgrabbed? (dinner|food|a bite) and (a pint|some wine|drinks?|a beer)\b', r'grabbed \3'),
+    (r'\bgrabbed? (dinner|food|a bite) and (a pint|some wine|drinks?|a beer)\b', r'grabbed \1'),
     (r'\bover (wine|beer|a pint|drinks?|cocktails?)\b', r'over dinner'),
     (r'\bafter (a few|some|a couple of) (pints|beers|drinks|rounds)\b', r'after a while'),
     (r'\bwent (to a pub|to the pub|out for drinks?|for a pint)\b', r'went out'),
@@ -113,11 +113,11 @@ def clean_body(text: str) -> tuple[str, list]:
         for pattern, replacement in COMPILED:
             line = pattern.sub(replacement, line)
 
-        # Check for anything the context-aware rules didn't catch
+        # Check for anything the context-aware rules didn't catch — leave alone
         remaining = CATCH_ALL.findall(line)
         if remaining:
-            line = f'{line}  <!-- [REVIEW: alcohol ref] -->'
-            changes.append(f'  Line {lineno}: flagged for manual review — {remaining}')
+            line = original  # restore the original line, don't touch it
+            pass
         elif line != original:
             changes.append(f'  Line {lineno}: auto-replaced')
 
