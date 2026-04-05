@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Rambling Rover</title>
+    <link>https://dmcoding-all.github.io/rambling-rover/categories/</link>
+    <description>Recent content in Categories on Rambling Rover</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dmcoding-all.github.io/rambling-rover/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Appalachian Trail</title>
+      <link>https://dmcoding-all.github.io/rambling-rover/categories/appalachian-trail/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://dmcoding-all.github.io/rambling-rover/categories/appalachian-trail/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gear &#43; Reviews</title>
+      <link>https://dmcoding-all.github.io/rambling-rover/categories/gear-&#43;-reviews/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://dmcoding-all.github.io/rambling-rover/categories/gear-&#43;-reviews/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>South America</title>
+      <link>https://dmcoding-all.github.io/rambling-rover/categories/south-america/</link>
+      <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dmcoding-all.github.io/rambling-rover/categories/south-america/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel Blog</title>
+      <link>https://dmcoding-all.github.io/rambling-rover/categories/travel-blog/</link>
+      <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dmcoding-all.github.io/rambling-rover/categories/travel-blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How-To</title>
+      <link>https://dmcoding-all.github.io/rambling-rover/categories/how-to/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dmcoding-all.github.io/rambling-rover/categories/how-to/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel Recommendations</title>
+      <link>https://dmcoding-all.github.io/rambling-rover/categories/travel-recommendations/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dmcoding-all.github.io/rambling-rover/categories/travel-recommendations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asia</title>
+      <link>https://dmcoding-all.github.io/rambling-rover/categories/asia/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://dmcoding-all.github.io/rambling-rover/categories/asia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Abroad</title>
+      <link>https://dmcoding-all.github.io/rambling-rover/categories/study-abroad/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://dmcoding-all.github.io/rambling-rover/categories/study-abroad/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
