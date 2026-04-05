@@ -254,12 +254,12 @@ locations:
   #   dates: "Mon YYYY"
   #   description: "One sentence."
 
-  - id: ben-nevis-scotland
-    slug: ben-nevis-scotland
-    name: Ben Nevis, Scotland
+  - id: ben-lomand-scotland
+    slug: ben-lomand-scotland
+    name: Ben Lomond, Scotland
     country: UK
     continent: Europe
-    lat: 56.7965
-    lng: -5.0312
+    lat: 56.1833
+    lng: -4.6360
     dates: "Oct 2018"
-    description: "The highest peak in the British Isles and a challenging hike for experienced mountaineers."
+    description: "Climbing Ben Lomond, one of the most iconic mountains in Scotland, with stunning views of Loch Lomond and the surrounding landscape."
