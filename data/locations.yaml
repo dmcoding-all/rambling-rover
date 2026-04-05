@@ -253,3 +253,13 @@ locations:
   #   lng: 00.0000                     # decimal degrees (positive = E, negative = W)
   #   dates: "Mon YYYY"
   #   description: "One sentence."
+
+  - id: ben-nevis-scotland
+    slug: ben-nevis-scotland
+    name: Ben Nevis, Scotland
+    country: UK
+    continent: Europe
+    lat: 56.7965
+    lng: -5.0312
+    dates: "Oct 2018"
+    description: "The highest peak in the British Isles and a challenging hike for experienced mountaineers."
