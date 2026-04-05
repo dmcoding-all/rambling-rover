@@ -18,7 +18,7 @@
       <div class="footer-col-title">Regions</div>
       <nav class="footer-links">
         {{ range first 6 .Site.Data.locations.locations }}
-        <a href="/locations/{{ .slug }}/">{{ .name }}</a>
+        <a href="{{ printf "locations/%s/" .slug | relURL }}">{{ .name }}</a>
         {{ end }}
       </nav>
     </div>

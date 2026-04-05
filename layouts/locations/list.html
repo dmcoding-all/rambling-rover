@@ -31,7 +31,7 @@
   <!-- Locations grid -->
   <div class="locations-grid">
     {{ range .Site.Data.locations.locations }}
-    <a href="/locations/{{ .slug }}/" style="display:block;">
+    <a href="{{ printf "locations/%s/" .slug | relURL }}" style="display:block;">
       <div class="location-card" data-continent="{{ .continent }}">
         <div class="location-card__img">
           <img src="{{ $.Site.Params.cloudinary_base }}/w_600,h_400,c_fill,q_auto,f_auto/locations/{{ .slug }}-cover.jpg"
