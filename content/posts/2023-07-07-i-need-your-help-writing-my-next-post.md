@@ -1,6 +1,5 @@
 ---
 title: I Need Your Help Writing My Next Post
-...
 date: 2023-07-07
 slug: i-need-your-help-writing-my-next-post
 draft: false

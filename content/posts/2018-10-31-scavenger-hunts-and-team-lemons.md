@@ -1,6 +1,5 @@
 ---
 title: Edinburgh Scavenger Hunts
-...
 date: 2018-10-31
 slug: scavenger-hunts-and-team-lemons
 draft: false

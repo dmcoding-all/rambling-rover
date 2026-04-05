@@ -1,6 +1,5 @@
 ---
 title: The step-tracking app all Hikers should have on their phone
-...
 date: 2023-07-13
 slug: the-step-tracking-app-all-hikers-should-have-on-their-phone
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: One Crazy Night
-...
 date: 2018-11-05
 slug: one-crazy-night
 draft: false

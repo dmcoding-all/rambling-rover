@@ -1,6 +1,5 @@
 ---
 title: Edinburgh's Samhuinn Fire Festival
-...
 date: 2018-11-05
 slug: samhuinn-fire-festival
 draft: false

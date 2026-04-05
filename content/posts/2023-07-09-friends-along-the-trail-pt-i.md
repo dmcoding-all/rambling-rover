@@ -1,6 +1,5 @@
 ---
 title: Friends Along the Trail (pt. I)
-...
 date: 2023-07-09
 slug: friends-along-the-trail-pt-i
 draft: false

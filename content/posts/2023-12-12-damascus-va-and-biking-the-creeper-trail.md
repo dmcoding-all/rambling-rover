@@ -1,6 +1,5 @@
 ---
 title: Damascus, VA and Biking the Creeper Trail
-...
 date: 2023-12-12
 slug: damascus-va-and-biking-the-creeper-trail
 draft: false

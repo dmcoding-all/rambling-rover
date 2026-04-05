@@ -1,6 +1,5 @@
 ---
 title: Backpacking Brands with Great Warranty's
-...
 date: 2023-10-06
 slug: backpacking-brands-with-great-warrantys
 draft: false

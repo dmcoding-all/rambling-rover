@@ -1,6 +1,5 @@
 ---
 title: Marion, VA &amp; The Grayson Highlands
-...
 date: 2023-12-09
 slug: marion-va-the-grayson-highlands
 draft: false

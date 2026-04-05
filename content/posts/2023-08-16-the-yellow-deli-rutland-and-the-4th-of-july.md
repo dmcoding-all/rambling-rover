@@ -1,6 +1,5 @@
 ---
 title: The Yellow Deli, Rutland, and the 4th of July
-...
 date: 2023-08-16
 slug: the-yellow-deli-rutland-and-the-4th-of-july
 draft: false

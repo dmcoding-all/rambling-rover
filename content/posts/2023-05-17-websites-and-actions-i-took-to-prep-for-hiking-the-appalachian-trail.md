@@ -1,6 +1,5 @@
 ---
 title: Websites and Actions I took to prep for hiking the Appalachian Trail
-...
 date: 2023-05-17
 slug: websites-and-actions-i-took-to-prep-for-hiking-the-appalachian-trail
 draft: false

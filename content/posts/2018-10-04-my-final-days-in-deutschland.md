@@ -1,6 +1,5 @@
 ---
 title: Frankfurt, the Block Forrest, and an authentic Oktoberfest
-...
 date: 2018-10-04
 slug: my-final-days-in-deutschland
 draft: false

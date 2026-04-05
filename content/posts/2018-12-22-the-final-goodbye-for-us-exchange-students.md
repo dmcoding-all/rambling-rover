@@ -1,6 +1,5 @@
 ---
 title: The final goodbye for us exchange students
-...
 date: 2018-12-22
 slug: the-final-goodbye-for-us-exchange-students
 draft: false

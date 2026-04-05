@@ -1,6 +1,5 @@
 ---
 title: The Cairngorms and Canadians
-...
 date: 2018-10-24
 slug: the-cairngorms-and-canadians
 draft: false

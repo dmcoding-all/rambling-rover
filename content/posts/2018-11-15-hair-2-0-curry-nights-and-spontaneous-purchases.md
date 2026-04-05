@@ -1,6 +1,5 @@
 ---
 title: Hair 2.0, Curry nights, and spontaneous purchases
-...
 date: 2018-11-15
 slug: hair-2-0-curry-nights-and-spontaneous-purchases
 draft: false

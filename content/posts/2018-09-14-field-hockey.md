@@ -1,6 +1,5 @@
 ---
 title: Playing Field Hockey while Studying Abroad
-...
 date: 2018-09-14
 slug: field-hockey
 draft: false

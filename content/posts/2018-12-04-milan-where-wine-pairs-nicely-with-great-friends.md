@@ -1,6 +1,5 @@
 ---
 title: Milan. Where Wine Pairs Nicely with Great Friends.
-...
 date: 2018-12-04
 slug: milan-where-wine-pairs-nicely-with-great-friends
 draft: false

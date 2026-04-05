@@ -1,6 +1,5 @@
 ---
 title: Climbing Ben Nevis (aka The Cobbler)
-...
 date: 2018-09-16
 slug: climbing-the-cobbler
 draft: false

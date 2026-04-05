@@ -1,6 +1,5 @@
 ---
 title: My Family Visits Edinburgh (Christmas and Hogmanay)
-...
 date: 2019-01-07
 slug: the-family-visits-christmas-and-new-years
 draft: false

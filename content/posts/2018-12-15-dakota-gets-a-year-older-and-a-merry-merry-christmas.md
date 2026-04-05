@@ -1,6 +1,5 @@
 ---
 title: Dakota gets a year older and a merry merry Christmas
-...
 date: 2018-12-15
 slug: dakota-gets-a-year-older-and-a-merry-merry-christmas
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Precautions I took as a Solo Woman Hiking the AT
-...
 date: 2023-05-15
 slug: precautions-i-took-as-a-solo-woman-hiking-the-at
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Landing back in the UK
-...
 date: 2018-10-05
 slug: landing-back-in-the-uk
 draft: false

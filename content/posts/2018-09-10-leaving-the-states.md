@@ -1,6 +1,5 @@
 ---
 title: Leaving the States
-...
 date: 2018-09-10
 slug: leaving-the-states
 draft: false

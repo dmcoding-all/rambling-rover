@@ -1,6 +1,5 @@
 ---
 title: 11 Gifts to buy this Black Friday for the thru-hiker in your life
-...
 date: 2023-11-24
 slug: 11-gifts-to-buy-this-black-friday-for-the-thru-hiker-in-your-life
 draft: false

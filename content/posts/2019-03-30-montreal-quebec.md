@@ -1,6 +1,5 @@
 ---
 title: Montreal, Quebec
-...
 date: 2019-03-30
 slug: montreal-quebec
 draft: false

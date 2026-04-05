@@ -1,6 +1,5 @@
 ---
 title: Who am I? and why am I hiking the Appalachian Trail?
-...
 date: 2023-03-28
 slug: who-i-am-and-why-am-i-hiking-the-pct
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: My last ceilidh (with my lemons)
-...
 date: 2018-12-16
 slug: my-actual-last-ceilidh
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Raising Money as I continue on the Trail
-...
 date: 2023-08-18
 slug: raising-money-as-i-continue-on-the-trail
 draft: false

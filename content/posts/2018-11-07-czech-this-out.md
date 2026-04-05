@@ -1,6 +1,5 @@
 ---
 title: Czech this out!
-...
 date: 2018-11-07
 slug: czech-this-out
 draft: false

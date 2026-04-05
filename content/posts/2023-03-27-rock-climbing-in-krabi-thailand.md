@@ -1,6 +1,5 @@
 ---
 title: Rock Climbing in Krabi, Thailand
-...
 date: 2023-03-27
 slug: rock-climbing-in-krabi-thailand
 draft: false

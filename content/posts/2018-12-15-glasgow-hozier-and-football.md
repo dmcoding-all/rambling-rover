@@ -1,6 +1,5 @@
 ---
 title: Glasgow (Hozier and football)
-...
 date: 2018-12-15
 slug: glasgow-hozier-and-football
 draft: false

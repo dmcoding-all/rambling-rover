@@ -1,6 +1,5 @@
 ---
 title: Trail Names
-...
 date: 2023-09-09
 slug: trail-names
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Donations and Challenges via my website
-...
 date: 2023-09-26
 slug: donations-and-challenges-via-my-website
 draft: false

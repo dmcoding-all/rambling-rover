@@ -1,6 +1,5 @@
 ---
 title: 15 Small Items That Make a Difference When Backpacking
-...
 date: 2023-10-06
 slug: 15-small-items-that-make-a-difference-when-backpacking
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Climbing Tiger Cave Temple (Wat Tham Sua)
-...
 date: 2023-03-27
 slug: climbing-tiger-cave-temple-wat-tham-sua
 draft: false

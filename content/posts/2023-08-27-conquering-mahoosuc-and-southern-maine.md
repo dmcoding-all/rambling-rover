@@ -1,6 +1,5 @@
 ---
 title: Conquering Mahoosuc and Southern Maine
-...
 date: 2023-08-27
 slug: conquering-mahoosuc-and-southern-maine
 draft: false

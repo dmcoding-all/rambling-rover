@@ -1,6 +1,5 @@
 ---
 title: Rugby Matches and the Scottish Highland Bus Tour
-...
 date: 2018-09-25
 slug: my-first-rugby-match-and-highland-bus-tour
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Thru Hiking on a Budget &amp; Taking Advantage of Prime Day Deals!
-...
 date: 2023-10-08
 slug: thru-hiking-on-a-budget-taking-advantage-of-prime-day-deals
 draft: false

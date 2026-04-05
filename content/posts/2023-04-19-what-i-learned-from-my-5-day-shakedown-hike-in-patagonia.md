@@ -1,6 +1,5 @@
 ---
 title: What I Learned From My 5 Day Shakedown Hike in Patagonia
-...
 date: 2023-04-19
 slug: what-i-learned-from-my-5-day-shakedown-hike-in-patagonia
 draft: false

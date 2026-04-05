@@ -1,6 +1,5 @@
 ---
 title: Arriving to Edinburgh
-...
 date: 2018-09-10
 slug: arriving-to-edinburgh
 draft: false

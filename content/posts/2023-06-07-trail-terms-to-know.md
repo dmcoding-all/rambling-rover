@@ -1,6 +1,5 @@
 ---
 title: Trail Terms to Know
-...
 date: 2023-06-07
 slug: trail-terms-to-know
 draft: false

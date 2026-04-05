@@ -1,6 +1,5 @@
 ---
 title: It's Not Bears We Should Fear, its the BEES
-...
 date: 2023-10-14
 slug: its-not-bears-we-should-fear-its-the-bees
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Bavarian Food and German Castles
-...
 date: 2018-09-29
 slug: germany-day-1
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Climbing Ben Lomond on an (actually?) sunny day
-...
 date: 2018-10-28
 slug: climbing-ben-lomond
 draft: false

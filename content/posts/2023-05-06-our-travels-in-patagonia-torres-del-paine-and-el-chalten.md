@@ -1,6 +1,5 @@
 ---
 title: Our travels in Patagonia - Torres del Paine and El Chalten
-...
 date: 2023-05-06
 slug: our-travels-in-patagonia-torres-del-paine-and-el-chalten
 draft: false

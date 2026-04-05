@@ -1,6 +1,5 @@
 ---
 title: How to offline download using Google Maps in 3 steps
-...
 date: 2023-03-11
 slug: how-to-offline-download-using-google-maps-in-3-steps
 draft: false

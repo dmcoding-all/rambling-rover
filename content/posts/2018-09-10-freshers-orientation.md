@@ -1,6 +1,5 @@
 ---
 title: Freshers Orientation
-...
 date: 2018-09-10
 slug: freshers-orientation
 draft: false

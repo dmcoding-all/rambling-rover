@@ -1,6 +1,5 @@
 ---
 title: I lost and so I dyed
-...
 date: 2018-11-08
 slug: i-lost-and-so-i-dyed
 draft: false

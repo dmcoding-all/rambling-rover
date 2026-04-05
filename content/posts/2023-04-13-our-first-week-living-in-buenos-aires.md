@@ -1,6 +1,5 @@
 ---
 title: Our first week living in Buenos Aires
-...
 date: 2023-04-13
 slug: our-first-week-living-in-buenos-aires
 draft: false

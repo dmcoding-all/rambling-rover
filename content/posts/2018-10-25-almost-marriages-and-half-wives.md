@@ -1,6 +1,5 @@
 ---
 title: Almost Marriages and Half Wives
-...
 date: 2018-10-25
 slug: almost-marriages-and-half-wives
 draft: false

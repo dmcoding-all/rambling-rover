@@ -1,6 +1,5 @@
 ---
 title: Above the Clouds in Deutschland
-...
 date: 2018-09-30
 slug: deutschland-day-2-and-3
 draft: false

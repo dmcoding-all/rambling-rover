@@ -1,6 +1,5 @@
 ---
 title: UCEAP Orientation
-...
 date: 2018-09-10
 slug: uceap-orientation
 draft: false

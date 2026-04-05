@@ -1,6 +1,5 @@
 ---
 title: A thank you to my team
-...
 date: 2018-11-28
 slug: a-thank-you-to-my-team
 draft: false

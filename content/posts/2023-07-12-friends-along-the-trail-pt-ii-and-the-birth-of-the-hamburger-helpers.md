@@ -1,6 +1,5 @@
 ---
 title: Friends Along the Trail (pt.II) and the Birth of the Hamburger Helpers
-...
 date: 2023-07-12
 slug: friends-along-the-trail-pt-ii-and-the-birth-of-the-hamburger-helpers
 draft: false

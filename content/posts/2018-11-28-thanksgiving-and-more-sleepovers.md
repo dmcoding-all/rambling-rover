@@ -1,6 +1,5 @@
 ---
 title: Thanksgiving and more Sleepovers
-...
 date: 2018-11-28
 slug: thanksgiving-and-more-sleepovers
 draft: false

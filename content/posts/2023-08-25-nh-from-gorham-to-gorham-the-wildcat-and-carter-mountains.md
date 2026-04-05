@@ -1,6 +1,5 @@
 ---
 title: From Gorham to Gorham, and onto Maine
-...
 date: 2023-08-25
 slug: nh-from-gorham-to-gorham-the-wildcat-and-carter-mountains
 draft: false

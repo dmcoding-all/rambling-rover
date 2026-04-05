@@ -1,6 +1,5 @@
 ---
 title: The Isle of Skye - Edinburgh Bus Tour
-...
 date: 2018-10-09
 slug: isle-of-skye
 draft: false

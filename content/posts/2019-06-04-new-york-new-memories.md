@@ -1,6 +1,5 @@
 ---
 title: New York, New Memories
-...
 date: 2019-06-04
 slug: new-york-new-memories
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: What time is it? SICK TIME
-...
 date: 2018-10-23
 slug: what-time-is-it-sick-time
 draft: false

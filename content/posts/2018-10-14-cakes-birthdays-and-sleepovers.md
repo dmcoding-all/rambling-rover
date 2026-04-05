@@ -1,6 +1,5 @@
 ---
 title: Cakes, Birthdays, and Sleepovers
-...
 date: 2018-10-14
 slug: cakes-birthdays-and-sleepovers
 draft: false

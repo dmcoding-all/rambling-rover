@@ -1,6 +1,5 @@
 ---
 title: Classes I am taking while Studying Abroad
-...
 date: 2018-10-17
 slug: wait-i-am-actually-taking-classes
 draft: false

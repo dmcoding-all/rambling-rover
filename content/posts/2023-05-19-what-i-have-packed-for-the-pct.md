@@ -1,6 +1,5 @@
 ---
 title: What I Have Packed for the Appalachian Trail
-...
 date: 2023-05-19
 slug: what-i-have-packed-for-the-pct
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Just a bunch of photos from my second time in Pai
-...
 date: 2023-03-27
 slug: just-a-bunch-of-photos-from-my-second-time-in-pai
 draft: false

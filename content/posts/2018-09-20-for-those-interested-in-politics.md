@@ -1,6 +1,5 @@
 ---
 title: For those interested in Politics
-...
 date: 2018-09-20
 slug: for-those-interested-in-politics
 draft: false

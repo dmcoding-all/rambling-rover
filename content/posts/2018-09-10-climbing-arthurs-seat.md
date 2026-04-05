@@ -1,6 +1,5 @@
 ---
 title: Climbing Arthur's Seat
-...
 date: 2018-09-10
 slug: climbing-arthurs-seat
 draft: false

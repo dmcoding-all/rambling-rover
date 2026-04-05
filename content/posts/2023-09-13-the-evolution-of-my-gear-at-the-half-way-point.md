@@ -1,6 +1,5 @@
 ---
 title: The Evolution of My Gear at the Half Way Point
-...
 date: 2023-09-13
 slug: the-evolution-of-my-gear-at-the-half-way-point
 draft: false

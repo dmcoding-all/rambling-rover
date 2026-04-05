@@ -1,6 +1,5 @@
 ---
 title: Finally a weekend home
-...
 date: 2018-11-17
 slug: finally-a-weekend-home
 draft: false

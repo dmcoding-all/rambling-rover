@@ -1,6 +1,5 @@
 ---
 title: Canadian Friendsgiving
-...
 date: 2018-10-11
 slug: friends-giving
 draft: false

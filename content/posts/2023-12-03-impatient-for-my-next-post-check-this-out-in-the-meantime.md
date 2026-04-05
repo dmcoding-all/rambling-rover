@@ -1,6 +1,5 @@
 ---
 title: Impatient for my next post? Check this out in the meantime
-...
 date: 2023-12-03
 slug: impatient-for-my-next-post-check-this-out-in-the-meantime
 draft: false

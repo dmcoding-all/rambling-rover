@@ -1,6 +1,5 @@
 ---
 title: Why I am switching from the Pacific Crest Trail to the Appalachian Trail
-...
 date: 2023-04-14
 slug: why-i-switched-from-the-pacific-crest-trail-to-the-appalachian-trail
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: Mumford &amp; Sons
-...
 date: 2018-11-23
 slug: mumford-sons
 draft: false

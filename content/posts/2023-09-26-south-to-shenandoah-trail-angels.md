@@ -1,6 +1,5 @@
 ---
 title: South to Shenandoah + Trail Angels
-...
 date: 2023-09-26
 slug: south-to-shenandoah-trail-angels
 draft: false

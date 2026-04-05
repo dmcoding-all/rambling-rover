@@ -1,6 +1,5 @@
 ---
 title: A (Rough) Beginning to our time in Buenos Aires
-...
 date: 2023-03-27
 slug: a-rough-beginning-to-our-time-in-buenos-aires
 draft: false

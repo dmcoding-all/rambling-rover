@@ -1,6 +1,5 @@
 ---
 title: Franconia Ridge, The Presidential Range &amp; Mt Washington
-...
 date: 2023-08-23
 slug: franconia-ridge-the-presidential-range-mt-washington
 draft: false

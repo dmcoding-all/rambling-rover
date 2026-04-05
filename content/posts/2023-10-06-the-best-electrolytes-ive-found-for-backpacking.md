@@ -1,6 +1,5 @@
 ---
 title: The Best Electrolytes I've found for Backpacking
-...
 date: 2023-10-06
 slug: the-best-electrolytes-ive-found-for-backpacking
 draft: false

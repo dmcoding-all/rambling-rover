@@ -1,6 +1,5 @@
 ---
 title: My Mini European Trip
-...
 date: 2019-01-18
 slug: my-mini-european-trip
 draft: false
