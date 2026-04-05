@@ -1,6 +1,6 @@
 ---
 title: "Ben Lomond, Scotland"
-location_id: ben-lomand-scotland
+location_id: ben-lomond-scotland
 recommendations: []
 ---
 

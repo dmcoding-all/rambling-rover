@@ -254,8 +254,8 @@ locations:
   #   dates: "Mon YYYY"
   #   description: "One sentence."
 
-  - id: ben-lomand-scotland
-    slug: ben-lomand-scotland
+  - id: ben-lomond-scotland
+    slug: ben-lomond-scotland
     name: Ben Lomond, Scotland
     country: UK
     continent: Europe
