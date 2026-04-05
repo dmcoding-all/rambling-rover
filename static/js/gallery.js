@@ -97,26 +97,87 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  /* ---- POST FILTER (blog list page) --------------------- */
+  /* ---- POST FILTER (JSON-powered, works across all pages) --- */
   const filterBtns = document.querySelectorAll('.filter-btn[data-filter]');
-  const postRows   = document.querySelectorAll('.post-row[data-cats]');
+  const paginatedPosts  = document.getElementById('paginated-posts');
+  const filterResults   = document.getElementById('filter-results');
+  const filterResultsList = document.getElementById('filter-results-list');
+  const filterNoResults = document.getElementById('filter-no-results');
 
-  filterBtns.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      const filter = this.dataset.filter;
-      filterBtns.forEach(b => b.classList.remove('active'));
-      this.classList.add('active');
+  let allPosts = null;
+  let activeCat = 'all';
+  let activeLoc = 'all';
 
-      postRows.forEach(function (row) {
-        if (filter === 'all') {
-          row.style.display = '';
-        } else {
-          const cats = (row.dataset.cats || '').toLowerCase();
-          row.style.display = cats.includes(filter.toLowerCase()) ? '' : 'none';
-        }
+  function fetchPosts(cb) {
+    if (allPosts) { cb(allPosts); return; }
+    fetch(window.POSTS_JSON_URL)
+      .then(function(r) { return r.json(); })
+      .then(function(data) { allPosts = data; cb(allPosts); })
+      .catch(function() { allPosts = []; cb([]); });
+  }
+
+  function renderResults(posts) {
+    if (!filterResults) return;
+    const isFiltered = activeCat !== 'all' || activeLoc !== 'all';
+
+    if (!isFiltered) {
+      filterResults.style.display = 'none';
+      if (paginatedPosts) paginatedPosts.style.display = '';
+      return;
+    }
+
+    const filtered = posts.filter(function(p) {
+      const cats = (p.categories || []).map(function(c) { return c.toLowerCase(); });
+      const locs = (p.locations || []).map(function(l) { return l.toLowerCase(); });
+      const catMatch = activeCat === 'all' || cats.includes(activeCat.toLowerCase());
+      const locMatch = activeLoc === 'all' || locs.includes(activeLoc.toLowerCase());
+      return catMatch && locMatch;
+    });
+
+    if (paginatedPosts) paginatedPosts.style.display = 'none';
+    filterResults.style.display = '';
+
+    if (filtered.length === 0) {
+      filterResultsList.innerHTML = '';
+      filterNoResults.style.display = '';
+      return;
+    }
+
+    filterNoResults.style.display = 'none';
+    filterResultsList.innerHTML = filtered.map(function(p) {
+      return '<a href="' + p.url + '" style="display:block;color:inherit;">' +
+        '<article class="post-row">' +
+          '<div class="post-row__meta">' +
+            '<div class="post-row__date">' + (p.date || '') + '</div>' +
+            '<div class="post-row__loc">' + (p.locations && p.locations[0] ? p.locations[0] : '') + '</div>' +
+          '</div>' +
+          '<div>' +
+            '<h2 class="post-row__title">' + p.title + '</h2>' +
+            '<p class="post-row__excerpt">' + (p.summary || '').substring(0, 160) + '…</p>' +
+          '</div>' +
+        '</article>' +
+      '</a>';
+    }).join('');
+  }
+
+  if (filterBtns.length > 0) {
+    filterBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        const filter = this.dataset.filter;
+        const type   = this.dataset.type;
+
+        // Update active state for this filter row only
+        document.querySelectorAll('.filter-btn[data-type="' + type + '"]')
+          .forEach(function(b) { b.classList.remove('active'); });
+        this.classList.add('active');
+
+        if (type === 'cat') activeCat = filter;
+        if (type === 'loc') activeLoc = filter;
+
+        fetchPosts(renderResults);
       });
     });
-  });
+  }
 
   /* ---- LOCATION CONTINENT FILTER ----------------------- */
   const contBtns = document.querySelectorAll('.filter-btn[data-continent]');

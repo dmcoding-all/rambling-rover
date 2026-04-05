@@ -9,62 +9,68 @@
     </p>
   </div>
 
-  <!-- Filter by category -->
+  <!-- Category filter -->
   <div class="filter-bar">
     <span class="filter-label">Filter:</span>
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="appalachian trail">Appalachian Trail</button>
-    <button class="filter-btn" data-filter="hiking">Hiking</button>
-    <button class="filter-btn" data-filter="study abroad">Study Abroad</button>
-    <button class="filter-btn" data-filter="travel blog">Travel Blog</button>
-    <button class="filter-btn" data-filter="gear + reviews">Gear &amp; Reviews</button>
-    <button class="filter-btn" data-filter="south america">South America</button>
+    <button class="filter-btn active" data-filter="all" data-type="cat">All</button>
+    <button class="filter-btn" data-filter="appalachian trail" data-type="cat">Appalachian Trail</button>
+    <button class="filter-btn" data-filter="hiking" data-type="cat">Hiking</button>
+    <button class="filter-btn" data-filter="study abroad" data-type="cat">Study Abroad</button>
+    <button class="filter-btn" data-filter="travel blog" data-type="cat">Travel Blog</button>
+    <button class="filter-btn" data-filter="gear + reviews" data-type="cat">Gear &amp; Reviews</button>
+    <button class="filter-btn" data-filter="south america" data-type="cat">South America</button>
   </div>
 
-  <!-- Filter by location -->
+  <!-- Location filter -->
   <div class="filter-bar" style="margin-top:-1rem;border-top:none;padding-top:0;">
     <span class="filter-label">Location:</span>
-    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn active" data-filter="all" data-type="loc">All</button>
     {{ range .Site.Data.locations.locations }}
-    <button class="filter-btn" data-filter="{{ .id }}">{{ .name }}</button>
+    <button class="filter-btn" data-filter="{{ .id }}" data-type="loc">{{ .name }}</button>
     {{ end }}
   </div>
 
-  <!-- Post list -->
-  <div class="post-list">
-    {{ range .Paginator.Pages }}
-    <a href="{{ .Permalink }}" style="display:block;color:inherit;">
-      <article class="post-row"
-        data-cats="{{ with .Params.categories }}{{ delimit . " " | lower }}{{ end }} {{ with .Params.locations }}{{ delimit . " " | lower }}{{ end }}">
+  <!-- Dynamic search results (shown when filter active) -->
+  <div id="filter-results" style="display:none;">
+    <div id="filter-results-list" class="post-list"></div>
+    <p id="filter-no-results" style="display:none;color:var(--ink-mid);padding:2rem 0;">
+      No posts found for this filter.
+    </p>
+  </div>
 
-        <div class="post-row__meta">
-          <div class="post-row__date">{{ .Date.Format "Jan 2, 2006" }}</div>
-          {{ with .Params.locations }}
-          <div class="post-row__loc">
-            {{ range first 1 . }}{{ . }}{{ end }}
+  <!-- Paginated post list (shown when no filter active) -->
+  <div id="paginated-posts">
+    <div class="post-list">
+      {{ range .Paginator.Pages }}
+      <a href="{{ .Permalink }}" style="display:block;color:inherit;">
+        <article class="post-row">
+          <div class="post-row__meta">
+            <div class="post-row__date">{{ .Date.Format "Jan 2, 2006" }}</div>
+            {{ with .Params.locations }}
+            <div class="post-row__loc">{{ range first 1 . }}{{ . }}{{ end }}</div>
+            {{ end }}
+          </div>
+          <div>
+            <h2 class="post-row__title">{{ .Title }}</h2>
+            <p class="post-row__excerpt">{{ .Summary | truncate 160 "…" }}</p>
+          </div>
+          {{ with .Params.cover }}
+          <div class="post-row__thumb">
+            <img src="{{ . | replaceRE `(/upload/)` `$1w_400,q_auto,f_auto/` }}"
+                 alt="{{ $.Title }}" loading="lazy" />
           </div>
           {{ end }}
-        </div>
-
-        <div>
-          <h2 class="post-row__title">{{ .Title }}</h2>
-          <p class="post-row__excerpt">{{ .Summary | truncate 160 "…" }}</p>
-        </div>
-
-        {{ with .Params.cover }}
-        <div class="post-row__thumb">
-          <img src="{{ . | replaceRE `(/upload/)` `$1w_400,q_auto,f_auto/` }}"
-               alt="{{ $.Title }}" loading="lazy" />
-        </div>
-        {{ end }}
-
-      </article>
-    </a>
-    {{ end }}
+        </article>
+      </a>
+      {{ end }}
+    </div>
+    {{ template "_internal/pagination.html" . }}
   </div>
 
-  <!-- Pagination -->
-  {{ template "_internal/pagination.html" . }}
-
 </div>
+
+<script>
+// Store the JSON URL for use by gallery.js filter logic
+window.POSTS_JSON_URL = '{{ "/" | absURL }}index.json';
+</script>
 {{ end }}
