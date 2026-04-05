@@ -5,7 +5,7 @@ date: 2018-10-28
 slug: climbing-ben-lomond
 draft: false
 locations:
-  - ben-lomand-scotland
+  - ben-lomond-scotland
 categories:
   - europe
   - study abroad

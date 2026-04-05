@@ -59,7 +59,7 @@
 <body>
   <nav class="site-nav">
   <div class="nav-inner">
-    <a href="/" class="nav-logo">
+    <a href="https://dmcoding-all.github.io/" class="nav-logo">
       <span class="logo-dot"></span>
       Rambling Rover
     </a>
@@ -285,17 +285,17 @@ morning</p>
       <div class="footer-col-title">Regions</div>
       <nav class="footer-links">
         
-        <a href="/locations/edinburgh/">Edinburgh, Scotland</a>
+        <a href="/rambling-rover/locations/edinburgh/">Edinburgh, Scotland</a>
         
-        <a href="/locations/isle-of-skye/">Isle of Skye, Scotland</a>
+        <a href="/rambling-rover/locations/isle-of-skye/">Isle of Skye, Scotland</a>
         
-        <a href="/locations/germany/">Bavaria, Germany</a>
+        <a href="/rambling-rover/locations/germany/">Bavaria, Germany</a>
         
-        <a href="/locations/czech-republic/">Prague, Czech Republic</a>
+        <a href="/rambling-rover/locations/czech-republic/">Prague, Czech Republic</a>
         
-        <a href="/locations/milan/">Milan, Italy</a>
+        <a href="/rambling-rover/locations/milan/">Milan, Italy</a>
         
-        <a href="/locations/dublin/">Dublin, Ireland</a>
+        <a href="/rambling-rover/locations/dublin/">Dublin, Ireland</a>
         
       </nav>
     </div>
@@ -308,234 +308,82 @@ morning</p>
 
 
   
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-  
   <script>
-    const mapCenter = {
-      lat:  30 ,
-      lng:  10 ,
-      zoom:  2 
-    };
-    const mapLocations = [
-      {
-        id:        "edinburgh",
-        name:      "\"Edinburgh, Scotland\"",
-        lat:        55.9533 ,
-        lng:        -3.1883 ,
-        dates:     "\"Sep 2018 – Dec 2018\"",
-        slug:      "edinburgh",
-        continent: "Europe"
-      },
-      {
-        id:        "isle-of-skye",
-        name:      "\"Isle of Skye, Scotland\"",
-        lat:        57.2736 ,
-        lng:        -6.2149 ,
-        dates:     "\"Oct 2018\"",
-        slug:      "isle-of-skye",
-        continent: "Europe"
-      },
-      {
-        id:        "germany",
-        name:      "\"Bavaria, Germany\"",
-        lat:        48.1351 ,
-        lng:        11.582 ,
-        dates:     "\"Sep – Oct 2018\"",
-        slug:      "germany",
-        continent: "Europe"
-      },
-      {
-        id:        "czech-republic",
-        name:      "\"Prague, Czech Republic\"",
-        lat:        50.0755 ,
-        lng:        14.4378 ,
-        dates:     "\"Nov 2018\"",
-        slug:      "czech-republic",
-        continent: "Europe"
-      },
-      {
-        id:        "milan",
-        name:      "\"Milan, Italy\"",
-        lat:        45.4642 ,
-        lng:        9.19 ,
-        dates:     "\"Dec 2018\"",
-        slug:      "milan",
-        continent: "Europe"
-      },
-      {
-        id:        "dublin",
-        name:      "\"Dublin, Ireland\"",
-        lat:        53.3498 ,
-        lng:        -6.2603 ,
-        dates:     "\"Dec 2018\"",
-        slug:      "dublin",
-        continent: "Europe"
-      },
-      {
-        id:        "glasgow",
-        name:      "\"Glasgow, Scotland\"",
-        lat:        55.8642 ,
-        lng:        -4.2518 ,
-        dates:     "\"Dec 2018\"",
-        slug:      "glasgow",
-        continent: "Europe"
-      },
-      {
-        id:        "new-york",
-        name:      "\"New York City, USA\"",
-        lat:        40.7128 ,
-        lng:        -74.006 ,
-        dates:     "\"Jun 2019\"",
-        slug:      "new-york",
-        continent: "North America"
-      },
-      {
-        id:        "bangkok",
-        name:      "\"Bangkok, Thailand\"",
-        lat:        13.7563 ,
-        lng:        100.5018 ,
-        dates:     "\"Jun – Jul 2019\"",
-        slug:      "bangkok",
-        continent: "Asia"
-      },
-      {
-        id:        "pai",
-        name:      "\"Pai, Thailand\"",
-        lat:        19.3586 ,
-        lng:        98.442 ,
-        dates:     "\"Jul 2019\"",
-        slug:      "pai",
-        continent: "Asia"
-      },
-      {
-        id:        "krabi",
-        name:      "\"Krabi, Thailand\"",
-        lat:        8.0863 ,
-        lng:        98.9063 ,
-        dates:     "\"Jul 2019\"",
-        slug:      "krabi",
-        continent: "Asia"
-      },
-      {
-        id:        "montreal",
-        name:      "\"Montreal, Canada\"",
-        lat:        45.5017 ,
-        lng:        -73.5673 ,
-        dates:     "\"Mar 2019\"",
-        slug:      "montreal",
-        continent: "North America"
-      },
-      {
-        id:        "buenos-aires",
-        name:      "\"Buenos Aires, Argentina\"",
-        lat:        -34.6037 ,
-        lng:        -58.3816 ,
-        dates:     "\"Mar – Apr 2023\"",
-        slug:      "buenos-aires",
-        continent: "South America"
-      },
-      {
-        id:        "patagonia",
-        name:      "\"Patagonia (Torres del Paine)\"",
-        lat:        -50.9423 ,
-        lng:        -73.4068 ,
-        dates:     "\"Apr 2023\"",
-        slug:      "patagonia",
-        continent: "South America"
-      },
-      {
-        id:        "iguazu",
-        name:      "\"Iguazú Falls, Argentina\"",
-        lat:        -25.6953 ,
-        lng:        -54.4367 ,
-        dates:     "\"Apr 2023\"",
-        slug:      "iguazu",
-        continent: "South America"
-      },
-      {
-        id:        "appalachian-trail-georgia",
-        name:      "\"AT — Georgia (Springer Mtn)\"",
-        lat:        34.6278 ,
-        lng:        -84.1938 ,
-        dates:     "\"Jun 2023\"",
-        slug:      "appalachian-trail-georgia",
-        continent: "North America"
-      },
-      {
-        id:        "appalachian-trail-pennsylvania",
-        name:      "\"AT — Pennsylvania (Rocksylvania)\"",
-        lat:        40.8509 ,
-        lng:        -75.5488 ,
-        dates:     "\"Jun 2023\"",
-        slug:      "appalachian-trail-pennsylvania",
-        continent: "North America"
-      },
-      {
-        id:        "appalachian-trail-new-jersey",
-        name:      "\"AT — New Jersey\"",
-        lat:        41.132 ,
-        lng:        -74.5654 ,
-        dates:     "\"Jul 2023\"",
-        slug:      "appalachian-trail-new-jersey",
-        continent: "North America"
-      },
-      {
-        id:        "appalachian-trail-new-york",
-        name:      "\"AT — New York\"",
-        lat:        41.2565 ,
-        lng:        -74.006 ,
-        dates:     "\"Jul 2023\"",
-        slug:      "appalachian-trail-new-york",
-        continent: "North America"
-      },
-      {
-        id:        "appalachian-trail-vermont",
-        name:      "\"AT — Vermont\"",
-        lat:        43.6745 ,
-        lng:        -72.9464 ,
-        dates:     "\"Aug 2023\"",
-        slug:      "appalachian-trail-vermont",
-        continent: "North America"
-      },
-      {
-        id:        "appalachian-trail-new-hampshire",
-        name:      "\"AT — New Hampshire (White Mountains)\"",
-        lat:        44.2706 ,
-        lng:        -71.3033 ,
-        dates:     "\"Aug 2023\"",
-        slug:      "appalachian-trail-new-hampshire",
-        continent: "North America"
-      },
-      {
-        id:        "appalachian-trail-maine",
-        name:      "\"AT — Maine (100-Mile Wilderness)\"",
-        lat:        45.9028 ,
-        lng:        -69.2547 ,
-        dates:     "\"Sep 2023\"",
-        slug:      "appalachian-trail-maine",
-        continent: "North America"
-      },
-      {
-        id:        "damascus",
-        name:      "\"Damascus, Virginia\"",
-        lat:        36.6318 ,
-        lng:        -81.776 ,
-        dates:     "\"Oct 2023\"",
-        slug:      "damascus",
-        continent: "North America"
-      },
-      ];
+    function initMap() {
+      var mapEl = document.getElementById('leaflet-map');
+      if (!mapEl) return;
+      var map = L.map('leaflet-map', {
+        center: [ 30 ,  10 ],
+        zoom:  2 ,
+        scrollWheelZoom: false
+      });
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '© OpenStreetMap contributors © CARTO',
+        subdomains: 'abcd',
+        maxZoom: 20
+      }).addTo(map);
+      var locations = [
+        { lat:  55.9533 , lng:  -3.1883 , name: "\"Edinburgh, Scotland\"", dates: "\"Sep 2018 – Dec 2018\"", slug: "edinburgh" },
+        { lat:  57.2736 , lng:  -6.2149 , name: "\"Isle of Skye, Scotland\"", dates: "\"Oct 2018\"", slug: "isle-of-skye" },
+        { lat:  48.1351 , lng:  11.582 , name: "\"Bavaria, Germany\"", dates: "\"Sep – Oct 2018\"", slug: "germany" },
+        { lat:  50.0755 , lng:  14.4378 , name: "\"Prague, Czech Republic\"", dates: "\"Nov 2018\"", slug: "czech-republic" },
+        { lat:  45.4642 , lng:  9.19 , name: "\"Milan, Italy\"", dates: "\"Dec 2018\"", slug: "milan" },
+        { lat:  53.3498 , lng:  -6.2603 , name: "\"Dublin, Ireland\"", dates: "\"Dec 2018\"", slug: "dublin" },
+        { lat:  55.8642 , lng:  -4.2518 , name: "\"Glasgow, Scotland\"", dates: "\"Dec 2018\"", slug: "glasgow" },
+        { lat:  40.7128 , lng:  -74.006 , name: "\"New York City, USA\"", dates: "\"Jun 2019\"", slug: "new-york" },
+        { lat:  13.7563 , lng:  100.5018 , name: "\"Bangkok, Thailand\"", dates: "\"Jun – Jul 2019\"", slug: "bangkok" },
+        { lat:  19.3586 , lng:  98.442 , name: "\"Pai, Thailand\"", dates: "\"Jul 2019\"", slug: "pai" },
+        { lat:  8.0863 , lng:  98.9063 , name: "\"Krabi, Thailand\"", dates: "\"Jul 2019\"", slug: "krabi" },
+        { lat:  45.5017 , lng:  -73.5673 , name: "\"Montreal, Canada\"", dates: "\"Mar 2019\"", slug: "montreal" },
+        { lat:  -34.6037 , lng:  -58.3816 , name: "\"Buenos Aires, Argentina\"", dates: "\"Mar – Apr 2023\"", slug: "buenos-aires" },
+        { lat:  -50.9423 , lng:  -73.4068 , name: "\"Patagonia (Torres del Paine)\"", dates: "\"Apr 2023\"", slug: "patagonia" },
+        { lat:  -25.6953 , lng:  -54.4367 , name: "\"Iguazú Falls, Argentina\"", dates: "\"Apr 2023\"", slug: "iguazu" },
+        { lat:  34.6278 , lng:  -84.1938 , name: "\"AT — Georgia (Springer Mtn)\"", dates: "\"Jun 2023\"", slug: "appalachian-trail-georgia" },
+        { lat:  40.8509 , lng:  -75.5488 , name: "\"AT — Pennsylvania (Rocksylvania)\"", dates: "\"Jun 2023\"", slug: "appalachian-trail-pennsylvania" },
+        { lat:  41.132 , lng:  -74.5654 , name: "\"AT — New Jersey\"", dates: "\"Jul 2023\"", slug: "appalachian-trail-new-jersey" },
+        { lat:  41.2565 , lng:  -74.006 , name: "\"AT — New York\"", dates: "\"Jul 2023\"", slug: "appalachian-trail-new-york" },
+        { lat:  43.6745 , lng:  -72.9464 , name: "\"AT — Vermont\"", dates: "\"Aug 2023\"", slug: "appalachian-trail-vermont" },
+        { lat:  44.2706 , lng:  -71.3033 , name: "\"AT — New Hampshire (White Mountains)\"", dates: "\"Aug 2023\"", slug: "appalachian-trail-new-hampshire" },
+        { lat:  45.9028 , lng:  -69.2547 , name: "\"AT — Maine (100-Mile Wilderness)\"", dates: "\"Sep 2023\"", slug: "appalachian-trail-maine" },
+        { lat:  36.6318 , lng:  -81.776 , name: "\"Damascus, Virginia\"", dates: "\"Oct 2023\"", slug: "damascus" },
+        { lat:  56.1833 , lng:  -4.636 , name: "\"Ben Lomond, Scotland\"", dates: "\"Oct 2018\"", slug: "ben-lomond-scotland" },
+        ];
+      locations.forEach(function(loc) {
+        var icon = L.divIcon({
+          className: '',
+          html: '<div class="map-marker-outer"></div>',
+          iconSize: [14, 14],
+          iconAnchor: [7, 7],
+          popupAnchor: [0, -10]
+        });
+        var marker = L.marker([loc.lat, loc.lng], { icon: icon }).addTo(map);
+        marker.bindPopup('<div style="color:#fff;font-family:sans-serif;"><strong style="font-size:1rem;display:block;margin-bottom:4px;">' + loc.name + '</strong><span style="font-size:0.75rem;opacity:0.6;">' + loc.dates + '</span><br><a href="/rambling-rover/locations/' + loc.slug + '/" style="color:#9ec96a;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;">Explore →</a></div>', { maxWidth: 220 });
+        marker.on('mouseover', function() { this.openPopup(); });
+        marker.on('click', function() { window.location.href = '/rambling-rover/locations/' + loc.slug + '/'; });
+      });
+      setTimeout(function() { map.invalidateSize(); }, 200);
+    }
+
+    function loadLeaflet() {
+      var css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+      document.head.appendChild(css);
+      var script = document.createElement('script');
+      script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+      script.onload = function() { initMap(); };
+      document.body.appendChild(script);
+    }
+
+    if (document.getElementById('leaflet-map')) {
+      if (document.readyState === 'complete') {
+        loadLeaflet();
+      } else {
+        window.addEventListener('load', loadLeaflet);
+      }
+    }
   </script>
 
-  <script>
-  window.addEventListener('load', function() {
-    var s = document.createElement('script');
-    s.src = '\/rambling-rover\/js\/map.js';
-    document.body.appendChild(s);
-  });
-</script>
   <script src="/rambling-rover/js/gallery.js"></script>
 </body>
 </html>
